@@ -1,0 +1,3582 @@
+<?xml version='1.0' encoding='utf-8' ?>
+
+<!-- build 20241.24.0425.1340                               -->
+<workbook original-version='18.1' source-build='2024.1.2 (20241.24.0425.1340)' source-platform='win' version='18.1' xmlns:user='http://www.tableausoftware.com/xml/user'>
+  <document-format-change-manifest>
+    <_.fcp.AnimationOnByDefault.true...AnimationOnByDefault />
+    <IntuitiveSorting />
+    <IntuitiveSorting_SP2 />
+    <_.fcp.MarkAnimation.true...MarkAnimation />
+    <_.fcp.ObjectModelEncapsulateLegacy.true...ObjectModelEncapsulateLegacy />
+    <_.fcp.ObjectModelTableType.true...ObjectModelTableType />
+    <_.fcp.SchemaViewerObjectModel.true...SchemaViewerObjectModel />
+    <SheetIdentifierTracking />
+    <SortTagCleanup />
+    <WindowsPersistSimpleIdentifiers />
+  </document-format-change-manifest>
+  <preferences>
+    <preference name='ui.encoding.shelf.height' value='24' />
+    <preference name='ui.shelf.height' value='26' />
+  </preferences>
+  <_.fcp.AnimationOnByDefault.false...style>
+    <_.fcp.AnimationOnByDefault.false..._.fcp.MarkAnimation.true...style-rule element='animation'>
+      <_.fcp.AnimationOnByDefault.false...format attr='animation-on' value='ao-on' />
+    </_.fcp.AnimationOnByDefault.false..._.fcp.MarkAnimation.true...style-rule>
+  </_.fcp.AnimationOnByDefault.false...style>
+  <datasources>
+    <datasource caption='transformed_merged_data' inline='true' name='federated.0w4u8zv1eds7q2112i53i1yg4owu' version='18.1'>
+      <connection class='federated'>
+        <named-connections>
+          <named-connection caption='transformed_merged_data' name='textscan.17otsh40gavxz81f9rnes0w3gnmn'>
+            <connection class='textscan' directory='C:/Users/Ajinkya Huddar/Desktop/ANA 1005 Study/NYSE Dataset' filename='transformed_merged_data.csv' password='' server='' />
+          </named-connection>
+        </named-connections>
+        <_.fcp.ObjectModelEncapsulateLegacy.false...relation connection='textscan.17otsh40gavxz81f9rnes0w3gnmn' name='transformed_merged_data.csv' table='[transformed_merged_data#csv]' type='table'>
+          <columns character-set='UTF-8' header='yes' locale='en_CA' separator=','>
+            <column datatype='date' name='date' ordinal='0' />
+            <column datatype='string' name='symbol' ordinal='1' />
+            <column datatype='real' name='open' ordinal='2' />
+            <column datatype='real' name='close' ordinal='3' />
+            <column datatype='real' name='low' ordinal='4' />
+            <column datatype='real' name='high' ordinal='5' />
+            <column datatype='real' name='volume' ordinal='6' />
+            <column datatype='integer' name='Unnamed: 0' ordinal='7' />
+            <column datatype='date' name='Period Ending' ordinal='8' />
+            <column datatype='real' name='Accounts Payable' ordinal='9' />
+            <column datatype='real' name='Accounts Receivable' ordinal='10' />
+            <column datatype='real' name='Add&apos;l income/expense items' ordinal='11' />
+            <column datatype='real' name='After Tax ROE' ordinal='12' />
+            <column datatype='real' name='Capital Expenditures' ordinal='13' />
+            <column datatype='real' name='Capital Surplus' ordinal='14' />
+            <column datatype='real' name='Cash Ratio' ordinal='15' />
+            <column datatype='real' name='Cash and Cash Equivalents' ordinal='16' />
+            <column datatype='real' name='Changes in Inventories' ordinal='17' />
+            <column datatype='real' name='Common Stocks' ordinal='18' />
+            <column datatype='real' name='Cost of Revenue' ordinal='19' />
+            <column datatype='real' name='Current Ratio' ordinal='20' />
+            <column datatype='real' name='Deferred Asset Charges' ordinal='21' />
+            <column datatype='real' name='Deferred Liability Charges' ordinal='22' />
+            <column datatype='real' name='Depreciation' ordinal='23' />
+            <column datatype='real' name='Earnings Before Interest and Tax' ordinal='24' />
+            <column datatype='real' name='Earnings Before Tax' ordinal='25' />
+            <column datatype='real' name='Effect of Exchange Rate' ordinal='26' />
+            <column datatype='real' name='Equity Earnings/Loss Unconsolidated Subsidiary' ordinal='27' />
+            <column datatype='real' name='Fixed Assets' ordinal='28' />
+            <column datatype='real' name='Goodwill' ordinal='29' />
+            <column datatype='real' name='Gross Margin' ordinal='30' />
+            <column datatype='real' name='Gross Profit' ordinal='31' />
+            <column datatype='real' name='Income Tax' ordinal='32' />
+            <column datatype='real' name='Intangible Assets' ordinal='33' />
+            <column datatype='real' name='Interest Expense' ordinal='34' />
+            <column datatype='real' name='Inventory' ordinal='35' />
+            <column datatype='real' name='Investments' ordinal='36' />
+            <column datatype='real' name='Liabilities' ordinal='37' />
+            <column datatype='real' name='Long-Term Debt' ordinal='38' />
+            <column datatype='real' name='Long-Term Investments' ordinal='39' />
+            <column datatype='real' name='Minority Interest' ordinal='40' />
+            <column datatype='real' name='Misc. Stocks' ordinal='41' />
+            <column datatype='real' name='Net Borrowings' ordinal='42' />
+            <column datatype='real' name='Net Cash Flow' ordinal='43' />
+            <column datatype='real' name='Net Cash Flow-Operating' ordinal='44' />
+            <column datatype='real' name='Net Cash Flows-Financing' ordinal='45' />
+            <column datatype='real' name='Net Cash Flows-Investing' ordinal='46' />
+            <column datatype='real' name='Net Income' ordinal='47' />
+            <column datatype='real' name='Net Income Adjustments' ordinal='48' />
+            <column datatype='real' name='Net Income Applicable to Common Shareholders' ordinal='49' />
+            <column datatype='real' name='Net Income-Cont. Operations' ordinal='50' />
+            <column datatype='real' name='Net Receivables' ordinal='51' />
+            <column datatype='real' name='Non-Recurring Items' ordinal='52' />
+            <column datatype='real' name='Operating Income' ordinal='53' />
+            <column datatype='real' name='Operating Margin' ordinal='54' />
+            <column datatype='real' name='Other Assets' ordinal='55' />
+            <column datatype='real' name='Other Current Assets' ordinal='56' />
+            <column datatype='real' name='Other Current Liabilities' ordinal='57' />
+            <column datatype='real' name='Other Equity' ordinal='58' />
+            <column datatype='real' name='Other Financing Activities' ordinal='59' />
+            <column datatype='real' name='Other Investing Activities' ordinal='60' />
+            <column datatype='real' name='Other Liabilities' ordinal='61' />
+            <column datatype='real' name='Other Operating Activities' ordinal='62' />
+            <column datatype='real' name='Other Operating Items' ordinal='63' />
+            <column datatype='real' name='Pre-Tax Margin' ordinal='64' />
+            <column datatype='real' name='Pre-Tax ROE' ordinal='65' />
+            <column datatype='real' name='Profit Margin' ordinal='66' />
+            <column datatype='real' name='Quick Ratio' ordinal='67' />
+            <column datatype='real' name='Research and Development' ordinal='68' />
+            <column datatype='real' name='Retained Earnings' ordinal='69' />
+            <column datatype='real' name='Sale and Purchase of Stock' ordinal='70' />
+            <column datatype='real' name='Sales, General and Admin.' ordinal='71' />
+            <column datatype='real' name='Short-Term Debt / Current Portion of Long-Term Debt' ordinal='72' />
+            <column datatype='real' name='Short-Term Investments' ordinal='73' />
+            <column datatype='real' name='Total Assets' ordinal='74' />
+            <column datatype='real' name='Total Current Assets' ordinal='75' />
+            <column datatype='real' name='Total Current Liabilities' ordinal='76' />
+            <column datatype='real' name='Total Equity' ordinal='77' />
+            <column datatype='real' name='Total Liabilities' ordinal='78' />
+            <column datatype='real' name='Total Liabilities &amp; Equity' ordinal='79' />
+            <column datatype='real' name='Total Revenue' ordinal='80' />
+            <column datatype='real' name='Treasury Stock' ordinal='81' />
+            <column datatype='real' name='For Year' ordinal='82' />
+            <column datatype='real' name='Earnings Per Share' ordinal='83' />
+            <column datatype='real' name='Estimated Shares Outstanding' ordinal='84' />
+            <column datatype='string' name='Security' ordinal='85' />
+            <column datatype='string' name='SEC filings' ordinal='86' />
+            <column datatype='string' name='GICS Sector' ordinal='87' />
+            <column datatype='string' name='GICS Sub Industry' ordinal='88' />
+            <column datatype='string' name='Address of Headquarters' ordinal='89' />
+            <column datatype='date' name='Date first added' ordinal='90' />
+            <column datatype='integer' name='CIK' ordinal='91' />
+            <column datatype='real' name='log_close' ordinal='92' />
+          </columns>
+        </_.fcp.ObjectModelEncapsulateLegacy.false...relation>
+        <_.fcp.ObjectModelEncapsulateLegacy.true...relation connection='textscan.17otsh40gavxz81f9rnes0w3gnmn' name='transformed_merged_data.csv' table='[transformed_merged_data#csv]' type='table'>
+          <columns character-set='UTF-8' header='yes' locale='en_CA' separator=','>
+            <column datatype='date' name='date' ordinal='0' />
+            <column datatype='string' name='symbol' ordinal='1' />
+            <column datatype='real' name='open' ordinal='2' />
+            <column datatype='real' name='close' ordinal='3' />
+            <column datatype='real' name='low' ordinal='4' />
+            <column datatype='real' name='high' ordinal='5' />
+            <column datatype='real' name='volume' ordinal='6' />
+            <column datatype='integer' name='Unnamed: 0' ordinal='7' />
+            <column datatype='date' name='Period Ending' ordinal='8' />
+            <column datatype='real' name='Accounts Payable' ordinal='9' />
+            <column datatype='real' name='Accounts Receivable' ordinal='10' />
+            <column datatype='real' name='Add&apos;l income/expense items' ordinal='11' />
+            <column datatype='real' name='After Tax ROE' ordinal='12' />
+            <column datatype='real' name='Capital Expenditures' ordinal='13' />
+            <column datatype='real' name='Capital Surplus' ordinal='14' />
+            <column datatype='real' name='Cash Ratio' ordinal='15' />
+            <column datatype='real' name='Cash and Cash Equivalents' ordinal='16' />
+            <column datatype='real' name='Changes in Inventories' ordinal='17' />
+            <column datatype='real' name='Common Stocks' ordinal='18' />
+            <column datatype='real' name='Cost of Revenue' ordinal='19' />
+            <column datatype='real' name='Current Ratio' ordinal='20' />
+            <column datatype='real' name='Deferred Asset Charges' ordinal='21' />
+            <column datatype='real' name='Deferred Liability Charges' ordinal='22' />
+            <column datatype='real' name='Depreciation' ordinal='23' />
+            <column datatype='real' name='Earnings Before Interest and Tax' ordinal='24' />
+            <column datatype='real' name='Earnings Before Tax' ordinal='25' />
+            <column datatype='real' name='Effect of Exchange Rate' ordinal='26' />
+            <column datatype='real' name='Equity Earnings/Loss Unconsolidated Subsidiary' ordinal='27' />
+            <column datatype='real' name='Fixed Assets' ordinal='28' />
+            <column datatype='real' name='Goodwill' ordinal='29' />
+            <column datatype='real' name='Gross Margin' ordinal='30' />
+            <column datatype='real' name='Gross Profit' ordinal='31' />
+            <column datatype='real' name='Income Tax' ordinal='32' />
+            <column datatype='real' name='Intangible Assets' ordinal='33' />
+            <column datatype='real' name='Interest Expense' ordinal='34' />
+            <column datatype='real' name='Inventory' ordinal='35' />
+            <column datatype='real' name='Investments' ordinal='36' />
+            <column datatype='real' name='Liabilities' ordinal='37' />
+            <column datatype='real' name='Long-Term Debt' ordinal='38' />
+            <column datatype='real' name='Long-Term Investments' ordinal='39' />
+            <column datatype='real' name='Minority Interest' ordinal='40' />
+            <column datatype='real' name='Misc. Stocks' ordinal='41' />
+            <column datatype='real' name='Net Borrowings' ordinal='42' />
+            <column datatype='real' name='Net Cash Flow' ordinal='43' />
+            <column datatype='real' name='Net Cash Flow-Operating' ordinal='44' />
+            <column datatype='real' name='Net Cash Flows-Financing' ordinal='45' />
+            <column datatype='real' name='Net Cash Flows-Investing' ordinal='46' />
+            <column datatype='real' name='Net Income' ordinal='47' />
+            <column datatype='real' name='Net Income Adjustments' ordinal='48' />
+            <column datatype='real' name='Net Income Applicable to Common Shareholders' ordinal='49' />
+            <column datatype='real' name='Net Income-Cont. Operations' ordinal='50' />
+            <column datatype='real' name='Net Receivables' ordinal='51' />
+            <column datatype='real' name='Non-Recurring Items' ordinal='52' />
+            <column datatype='real' name='Operating Income' ordinal='53' />
+            <column datatype='real' name='Operating Margin' ordinal='54' />
+            <column datatype='real' name='Other Assets' ordinal='55' />
+            <column datatype='real' name='Other Current Assets' ordinal='56' />
+            <column datatype='real' name='Other Current Liabilities' ordinal='57' />
+            <column datatype='real' name='Other Equity' ordinal='58' />
+            <column datatype='real' name='Other Financing Activities' ordinal='59' />
+            <column datatype='real' name='Other Investing Activities' ordinal='60' />
+            <column datatype='real' name='Other Liabilities' ordinal='61' />
+            <column datatype='real' name='Other Operating Activities' ordinal='62' />
+            <column datatype='real' name='Other Operating Items' ordinal='63' />
+            <column datatype='real' name='Pre-Tax Margin' ordinal='64' />
+            <column datatype='real' name='Pre-Tax ROE' ordinal='65' />
+            <column datatype='real' name='Profit Margin' ordinal='66' />
+            <column datatype='real' name='Quick Ratio' ordinal='67' />
+            <column datatype='real' name='Research and Development' ordinal='68' />
+            <column datatype='real' name='Retained Earnings' ordinal='69' />
+            <column datatype='real' name='Sale and Purchase of Stock' ordinal='70' />
+            <column datatype='real' name='Sales, General and Admin.' ordinal='71' />
+            <column datatype='real' name='Short-Term Debt / Current Portion of Long-Term Debt' ordinal='72' />
+            <column datatype='real' name='Short-Term Investments' ordinal='73' />
+            <column datatype='real' name='Total Assets' ordinal='74' />
+            <column datatype='real' name='Total Current Assets' ordinal='75' />
+            <column datatype='real' name='Total Current Liabilities' ordinal='76' />
+            <column datatype='real' name='Total Equity' ordinal='77' />
+            <column datatype='real' name='Total Liabilities' ordinal='78' />
+            <column datatype='real' name='Total Liabilities &amp; Equity' ordinal='79' />
+            <column datatype='real' name='Total Revenue' ordinal='80' />
+            <column datatype='real' name='Treasury Stock' ordinal='81' />
+            <column datatype='real' name='For Year' ordinal='82' />
+            <column datatype='real' name='Earnings Per Share' ordinal='83' />
+            <column datatype='real' name='Estimated Shares Outstanding' ordinal='84' />
+            <column datatype='string' name='Security' ordinal='85' />
+            <column datatype='string' name='SEC filings' ordinal='86' />
+            <column datatype='string' name='GICS Sector' ordinal='87' />
+            <column datatype='string' name='GICS Sub Industry' ordinal='88' />
+            <column datatype='string' name='Address of Headquarters' ordinal='89' />
+            <column datatype='date' name='Date first added' ordinal='90' />
+            <column datatype='integer' name='CIK' ordinal='91' />
+            <column datatype='real' name='log_close' ordinal='92' />
+          </columns>
+        </_.fcp.ObjectModelEncapsulateLegacy.true...relation>
+        <metadata-records>
+          <metadata-record class='capability'>
+            <remote-name />
+            <remote-type>0</remote-type>
+            <parent-name>[transformed_merged_data.csv]</parent-name>
+            <remote-alias />
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='character-set'>&quot;UTF-8&quot;</attribute>
+              <attribute datatype='string' name='collation'>&quot;en_GB&quot;</attribute>
+              <attribute datatype='string' name='field-delimiter'>&quot;,&quot;</attribute>
+              <attribute datatype='string' name='header-row'>&quot;true&quot;</attribute>
+              <attribute datatype='string' name='locale'>&quot;en_CA&quot;</attribute>
+              <attribute datatype='string' name='single-char'>&quot;&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>date</remote-name>
+            <remote-type>133</remote-type>
+            <local-name>[date]</local-name>
+            <parent-name>[transformed_merged_data.csv]</parent-name>
+            <remote-alias>date</remote-alias>
+            <ordinal>0</ordinal>
+            <local-type>date</local-type>
+            <aggregation>Year</aggregation>
+            <contains-null>true</contains-null>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>symbol</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[symbol]</local-name>
+            <parent-name>[transformed_merged_data.csv]</parent-name>
+            <remote-alias>symbol</remote-alias>
+            <ordinal>1</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RGB' />
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>open</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[open]</local-name>
+            <parent-name>[transformed_merged_data.csv]</parent-name>
+            <remote-alias>open</remote-alias>
+            <ordinal>2</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>close</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[close]</local-name>
+            <parent-name>[transformed_merged_data.csv]</parent-name>
+            <remote-alias>close</remote-alias>
+            <ordinal>3</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>low</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[low]</local-name>
+            <parent-name>[transformed_merged_data.csv]</parent-name>
+            <remote-alias>low</remote-alias>
+            <ordinal>4</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>high</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[high]</local-name>
+            <parent-name>[transformed_merged_data.csv]</parent-name>
+            <remote-alias>high</remote-alias>
+            <ordinal>5</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>volume</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[volume]</local-name>
+            <parent-name>[transformed_merged_data.csv]</parent-name>
+            <remote-alias>volume</remote-alias>
+            <ordinal>6</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Unnamed: 0</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Unnamed: 0]</local-name>
+            <parent-name>[transformed_merged_data.csv]</parent-name>
+            <remote-alias>Unnamed: 0</remote-alias>
+            <ordinal>7</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Period Ending</remote-name>
+            <remote-type>133</remote-type>
+            <local-name>[Period Ending]</local-name>
+            <parent-name>[transformed_merged_data.csv]</parent-name>
+            <remote-alias>Period Ending</remote-alias>
+            <ordinal>8</ordinal>
+            <local-type>date</local-type>
+            <aggregation>Year</aggregation>
+            <contains-null>true</contains-null>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Accounts Payable</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[Accounts Payable]</local-name>
+            <parent-name>[transformed_merged_data.csv]</parent-name>
+            <remote-alias>Accounts Payable</remote-alias>
+            <ordinal>9</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Accounts Receivable</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[Accounts Receivable]</local-name>
+            <parent-name>[transformed_merged_data.csv]</parent-name>
+            <remote-alias>Accounts Receivable</remote-alias>
+            <ordinal>10</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Add&apos;l income/expense items</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[Add&apos;l income/expense items]</local-name>
+            <parent-name>[transformed_merged_data.csv]</parent-name>
+            <remote-alias>Add&apos;l income/expense items</remote-alias>
+            <ordinal>11</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>After Tax ROE</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[After Tax ROE]</local-name>
+            <parent-name>[transformed_merged_data.csv]</parent-name>
+            <remote-alias>After Tax ROE</remote-alias>
+            <ordinal>12</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Capital Expenditures</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[Capital Expenditures]</local-name>
+            <parent-name>[transformed_merged_data.csv]</parent-name>
+            <remote-alias>Capital Expenditures</remote-alias>
+            <ordinal>13</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Capital Surplus</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[Capital Surplus]</local-name>
+            <parent-name>[transformed_merged_data.csv]</parent-name>
+            <remote-alias>Capital Surplus</remote-alias>
+            <ordinal>14</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Cash Ratio</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[Cash Ratio]</local-name>
+            <parent-name>[transformed_merged_data.csv]</parent-name>
+            <remote-alias>Cash Ratio</remote-alias>
+            <ordinal>15</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Cash and Cash Equivalents</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[Cash and Cash Equivalents]</local-name>
+            <parent-name>[transformed_merged_data.csv]</parent-name>
+            <remote-alias>Cash and Cash Equivalents</remote-alias>
+            <ordinal>16</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Changes in Inventories</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[Changes in Inventories]</local-name>
+            <parent-name>[transformed_merged_data.csv]</parent-name>
+            <remote-alias>Changes in Inventories</remote-alias>
+            <ordinal>17</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Common Stocks</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[Common Stocks]</local-name>
+            <parent-name>[transformed_merged_data.csv]</parent-name>
+            <remote-alias>Common Stocks</remote-alias>
+            <ordinal>18</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Cost of Revenue</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[Cost of Revenue]</local-name>
+            <parent-name>[transformed_merged_data.csv]</parent-name>
+            <remote-alias>Cost of Revenue</remote-alias>
+            <ordinal>19</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Current Ratio</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[Current Ratio]</local-name>
+            <parent-name>[transformed_merged_data.csv]</parent-name>
+            <remote-alias>Current Ratio</remote-alias>
+            <ordinal>20</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Deferred Asset Charges</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[Deferred Asset Charges]</local-name>
+            <parent-name>[transformed_merged_data.csv]</parent-name>
+            <remote-alias>Deferred Asset Charges</remote-alias>
+            <ordinal>21</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Deferred Liability Charges</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[Deferred Liability Charges]</local-name>
+            <parent-name>[transformed_merged_data.csv]</parent-name>
+            <remote-alias>Deferred Liability Charges</remote-alias>
+            <ordinal>22</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Depreciation</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[Depreciation]</local-name>
+            <parent-name>[transformed_merged_data.csv]</parent-name>
+            <remote-alias>Depreciation</remote-alias>
+            <ordinal>23</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Earnings Before Interest and Tax</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[Earnings Before Interest and Tax]</local-name>
+            <parent-name>[transformed_merged_data.csv]</parent-name>
+            <remote-alias>Earnings Before Interest and Tax</remote-alias>
+            <ordinal>24</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Earnings Before Tax</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[Earnings Before Tax]</local-name>
+            <parent-name>[transformed_merged_data.csv]</parent-name>
+            <remote-alias>Earnings Before Tax</remote-alias>
+            <ordinal>25</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Effect of Exchange Rate</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[Effect of Exchange Rate]</local-name>
+            <parent-name>[transformed_merged_data.csv]</parent-name>
+            <remote-alias>Effect of Exchange Rate</remote-alias>
+            <ordinal>26</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Equity Earnings/Loss Unconsolidated Subsidiary</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[Equity Earnings/Loss Unconsolidated Subsidiary]</local-name>
+            <parent-name>[transformed_merged_data.csv]</parent-name>
+            <remote-alias>Equity Earnings/Loss Unconsolidated Subsidiary</remote-alias>
+            <ordinal>27</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Fixed Assets</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[Fixed Assets]</local-name>
+            <parent-name>[transformed_merged_data.csv]</parent-name>
+            <remote-alias>Fixed Assets</remote-alias>
+            <ordinal>28</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Goodwill</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[Goodwill]</local-name>
+            <parent-name>[transformed_merged_data.csv]</parent-name>
+            <remote-alias>Goodwill</remote-alias>
+            <ordinal>29</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Gross Margin</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[Gross Margin]</local-name>
+            <parent-name>[transformed_merged_data.csv]</parent-name>
+            <remote-alias>Gross Margin</remote-alias>
+            <ordinal>30</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Gross Profit</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[Gross Profit]</local-name>
+            <parent-name>[transformed_merged_data.csv]</parent-name>
+            <remote-alias>Gross Profit</remote-alias>
+            <ordinal>31</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Income Tax</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[Income Tax]</local-name>
+            <parent-name>[transformed_merged_data.csv]</parent-name>
+            <remote-alias>Income Tax</remote-alias>
+            <ordinal>32</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Intangible Assets</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[Intangible Assets]</local-name>
+            <parent-name>[transformed_merged_data.csv]</parent-name>
+            <remote-alias>Intangible Assets</remote-alias>
+            <ordinal>33</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Interest Expense</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[Interest Expense]</local-name>
+            <parent-name>[transformed_merged_data.csv]</parent-name>
+            <remote-alias>Interest Expense</remote-alias>
+            <ordinal>34</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Inventory</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[Inventory]</local-name>
+            <parent-name>[transformed_merged_data.csv]</parent-name>
+            <remote-alias>Inventory</remote-alias>
+            <ordinal>35</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Investments</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[Investments]</local-name>
+            <parent-name>[transformed_merged_data.csv]</parent-name>
+            <remote-alias>Investments</remote-alias>
+            <ordinal>36</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Liabilities</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[Liabilities]</local-name>
+            <parent-name>[transformed_merged_data.csv]</parent-name>
+            <remote-alias>Liabilities</remote-alias>
+            <ordinal>37</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Long-Term Debt</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[Long-Term Debt]</local-name>
+            <parent-name>[transformed_merged_data.csv]</parent-name>
+            <remote-alias>Long-Term Debt</remote-alias>
+            <ordinal>38</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Long-Term Investments</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[Long-Term Investments]</local-name>
+            <parent-name>[transformed_merged_data.csv]</parent-name>
+            <remote-alias>Long-Term Investments</remote-alias>
+            <ordinal>39</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Minority Interest</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[Minority Interest]</local-name>
+            <parent-name>[transformed_merged_data.csv]</parent-name>
+            <remote-alias>Minority Interest</remote-alias>
+            <ordinal>40</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Misc. Stocks</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[Misc. Stocks]</local-name>
+            <parent-name>[transformed_merged_data.csv]</parent-name>
+            <remote-alias>Misc. Stocks</remote-alias>
+            <ordinal>41</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Net Borrowings</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[Net Borrowings]</local-name>
+            <parent-name>[transformed_merged_data.csv]</parent-name>
+            <remote-alias>Net Borrowings</remote-alias>
+            <ordinal>42</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Net Cash Flow</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[Net Cash Flow]</local-name>
+            <parent-name>[transformed_merged_data.csv]</parent-name>
+            <remote-alias>Net Cash Flow</remote-alias>
+            <ordinal>43</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Net Cash Flow-Operating</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[Net Cash Flow-Operating]</local-name>
+            <parent-name>[transformed_merged_data.csv]</parent-name>
+            <remote-alias>Net Cash Flow-Operating</remote-alias>
+            <ordinal>44</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Net Cash Flows-Financing</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[Net Cash Flows-Financing]</local-name>
+            <parent-name>[transformed_merged_data.csv]</parent-name>
+            <remote-alias>Net Cash Flows-Financing</remote-alias>
+            <ordinal>45</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Net Cash Flows-Investing</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[Net Cash Flows-Investing]</local-name>
+            <parent-name>[transformed_merged_data.csv]</parent-name>
+            <remote-alias>Net Cash Flows-Investing</remote-alias>
+            <ordinal>46</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Net Income</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[Net Income]</local-name>
+            <parent-name>[transformed_merged_data.csv]</parent-name>
+            <remote-alias>Net Income</remote-alias>
+            <ordinal>47</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Net Income Adjustments</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[Net Income Adjustments]</local-name>
+            <parent-name>[transformed_merged_data.csv]</parent-name>
+            <remote-alias>Net Income Adjustments</remote-alias>
+            <ordinal>48</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Net Income Applicable to Common Shareholders</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[Net Income Applicable to Common Shareholders]</local-name>
+            <parent-name>[transformed_merged_data.csv]</parent-name>
+            <remote-alias>Net Income Applicable to Common Shareholders</remote-alias>
+            <ordinal>49</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Net Income-Cont. Operations</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[Net Income-Cont. Operations]</local-name>
+            <parent-name>[transformed_merged_data.csv]</parent-name>
+            <remote-alias>Net Income-Cont. Operations</remote-alias>
+            <ordinal>50</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Net Receivables</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[Net Receivables]</local-name>
+            <parent-name>[transformed_merged_data.csv]</parent-name>
+            <remote-alias>Net Receivables</remote-alias>
+            <ordinal>51</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Non-Recurring Items</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[Non-Recurring Items]</local-name>
+            <parent-name>[transformed_merged_data.csv]</parent-name>
+            <remote-alias>Non-Recurring Items</remote-alias>
+            <ordinal>52</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Operating Income</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[Operating Income]</local-name>
+            <parent-name>[transformed_merged_data.csv]</parent-name>
+            <remote-alias>Operating Income</remote-alias>
+            <ordinal>53</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Operating Margin</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[Operating Margin]</local-name>
+            <parent-name>[transformed_merged_data.csv]</parent-name>
+            <remote-alias>Operating Margin</remote-alias>
+            <ordinal>54</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Other Assets</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[Other Assets]</local-name>
+            <parent-name>[transformed_merged_data.csv]</parent-name>
+            <remote-alias>Other Assets</remote-alias>
+            <ordinal>55</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Other Current Assets</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[Other Current Assets]</local-name>
+            <parent-name>[transformed_merged_data.csv]</parent-name>
+            <remote-alias>Other Current Assets</remote-alias>
+            <ordinal>56</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Other Current Liabilities</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[Other Current Liabilities]</local-name>
+            <parent-name>[transformed_merged_data.csv]</parent-name>
+            <remote-alias>Other Current Liabilities</remote-alias>
+            <ordinal>57</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Other Equity</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[Other Equity]</local-name>
+            <parent-name>[transformed_merged_data.csv]</parent-name>
+            <remote-alias>Other Equity</remote-alias>
+            <ordinal>58</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Other Financing Activities</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[Other Financing Activities]</local-name>
+            <parent-name>[transformed_merged_data.csv]</parent-name>
+            <remote-alias>Other Financing Activities</remote-alias>
+            <ordinal>59</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Other Investing Activities</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[Other Investing Activities]</local-name>
+            <parent-name>[transformed_merged_data.csv]</parent-name>
+            <remote-alias>Other Investing Activities</remote-alias>
+            <ordinal>60</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Other Liabilities</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[Other Liabilities]</local-name>
+            <parent-name>[transformed_merged_data.csv]</parent-name>
+            <remote-alias>Other Liabilities</remote-alias>
+            <ordinal>61</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Other Operating Activities</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[Other Operating Activities]</local-name>
+            <parent-name>[transformed_merged_data.csv]</parent-name>
+            <remote-alias>Other Operating Activities</remote-alias>
+            <ordinal>62</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Other Operating Items</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[Other Operating Items]</local-name>
+            <parent-name>[transformed_merged_data.csv]</parent-name>
+            <remote-alias>Other Operating Items</remote-alias>
+            <ordinal>63</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Pre-Tax Margin</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[Pre-Tax Margin]</local-name>
+            <parent-name>[transformed_merged_data.csv]</parent-name>
+            <remote-alias>Pre-Tax Margin</remote-alias>
+            <ordinal>64</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Pre-Tax ROE</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[Pre-Tax ROE]</local-name>
+            <parent-name>[transformed_merged_data.csv]</parent-name>
+            <remote-alias>Pre-Tax ROE</remote-alias>
+            <ordinal>65</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Profit Margin</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[Profit Margin]</local-name>
+            <parent-name>[transformed_merged_data.csv]</parent-name>
+            <remote-alias>Profit Margin</remote-alias>
+            <ordinal>66</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Quick Ratio</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[Quick Ratio]</local-name>
+            <parent-name>[transformed_merged_data.csv]</parent-name>
+            <remote-alias>Quick Ratio</remote-alias>
+            <ordinal>67</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Research and Development</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[Research and Development]</local-name>
+            <parent-name>[transformed_merged_data.csv]</parent-name>
+            <remote-alias>Research and Development</remote-alias>
+            <ordinal>68</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Retained Earnings</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[Retained Earnings]</local-name>
+            <parent-name>[transformed_merged_data.csv]</parent-name>
+            <remote-alias>Retained Earnings</remote-alias>
+            <ordinal>69</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Sale and Purchase of Stock</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[Sale and Purchase of Stock]</local-name>
+            <parent-name>[transformed_merged_data.csv]</parent-name>
+            <remote-alias>Sale and Purchase of Stock</remote-alias>
+            <ordinal>70</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Sales, General and Admin.</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[Sales, General and Admin.]</local-name>
+            <parent-name>[transformed_merged_data.csv]</parent-name>
+            <remote-alias>Sales, General and Admin.</remote-alias>
+            <ordinal>71</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Short-Term Debt / Current Portion of Long-Term Debt</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[Short-Term Debt / Current Portion of Long-Term Debt]</local-name>
+            <parent-name>[transformed_merged_data.csv]</parent-name>
+            <remote-alias>Short-Term Debt / Current Portion of Long-Term Debt</remote-alias>
+            <ordinal>72</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Short-Term Investments</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[Short-Term Investments]</local-name>
+            <parent-name>[transformed_merged_data.csv]</parent-name>
+            <remote-alias>Short-Term Investments</remote-alias>
+            <ordinal>73</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Total Assets</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[Total Assets]</local-name>
+            <parent-name>[transformed_merged_data.csv]</parent-name>
+            <remote-alias>Total Assets</remote-alias>
+            <ordinal>74</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Total Current Assets</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[Total Current Assets]</local-name>
+            <parent-name>[transformed_merged_data.csv]</parent-name>
+            <remote-alias>Total Current Assets</remote-alias>
+            <ordinal>75</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Total Current Liabilities</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[Total Current Liabilities]</local-name>
+            <parent-name>[transformed_merged_data.csv]</parent-name>
+            <remote-alias>Total Current Liabilities</remote-alias>
+            <ordinal>76</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Total Equity</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[Total Equity]</local-name>
+            <parent-name>[transformed_merged_data.csv]</parent-name>
+            <remote-alias>Total Equity</remote-alias>
+            <ordinal>77</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Total Liabilities</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[Total Liabilities]</local-name>
+            <parent-name>[transformed_merged_data.csv]</parent-name>
+            <remote-alias>Total Liabilities</remote-alias>
+            <ordinal>78</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Total Liabilities &amp; Equity</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[Total Liabilities &amp; Equity]</local-name>
+            <parent-name>[transformed_merged_data.csv]</parent-name>
+            <remote-alias>Total Liabilities &amp; Equity</remote-alias>
+            <ordinal>79</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Total Revenue</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[Total Revenue]</local-name>
+            <parent-name>[transformed_merged_data.csv]</parent-name>
+            <remote-alias>Total Revenue</remote-alias>
+            <ordinal>80</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Treasury Stock</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[Treasury Stock]</local-name>
+            <parent-name>[transformed_merged_data.csv]</parent-name>
+            <remote-alias>Treasury Stock</remote-alias>
+            <ordinal>81</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>For Year</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[For Year]</local-name>
+            <parent-name>[transformed_merged_data.csv]</parent-name>
+            <remote-alias>For Year</remote-alias>
+            <ordinal>82</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Earnings Per Share</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[Earnings Per Share]</local-name>
+            <parent-name>[transformed_merged_data.csv]</parent-name>
+            <remote-alias>Earnings Per Share</remote-alias>
+            <ordinal>83</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Estimated Shares Outstanding</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[Estimated Shares Outstanding]</local-name>
+            <parent-name>[transformed_merged_data.csv]</parent-name>
+            <remote-alias>Estimated Shares Outstanding</remote-alias>
+            <ordinal>84</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Security</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[Security]</local-name>
+            <parent-name>[transformed_merged_data.csv]</parent-name>
+            <remote-alias>Security</remote-alias>
+            <ordinal>85</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RGB' />
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>SEC filings</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[SEC filings]</local-name>
+            <parent-name>[transformed_merged_data.csv]</parent-name>
+            <remote-alias>SEC filings</remote-alias>
+            <ordinal>86</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RGB' />
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>GICS Sector</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[GICS Sector]</local-name>
+            <parent-name>[transformed_merged_data.csv]</parent-name>
+            <remote-alias>GICS Sector</remote-alias>
+            <ordinal>87</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RGB' />
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>GICS Sub Industry</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[GICS Sub Industry]</local-name>
+            <parent-name>[transformed_merged_data.csv]</parent-name>
+            <remote-alias>GICS Sub Industry</remote-alias>
+            <ordinal>88</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RGB' />
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Address of Headquarters</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[Address of Headquarters]</local-name>
+            <parent-name>[transformed_merged_data.csv]</parent-name>
+            <remote-alias>Address of Headquarters</remote-alias>
+            <ordinal>89</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RGB' />
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Date first added</remote-name>
+            <remote-type>133</remote-type>
+            <local-name>[Date first added]</local-name>
+            <parent-name>[transformed_merged_data.csv]</parent-name>
+            <remote-alias>Date first added</remote-alias>
+            <ordinal>90</ordinal>
+            <local-type>date</local-type>
+            <aggregation>Year</aggregation>
+            <contains-null>true</contains-null>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>CIK</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[CIK]</local-name>
+            <parent-name>[transformed_merged_data.csv]</parent-name>
+            <remote-alias>CIK</remote-alias>
+            <ordinal>91</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>log_close</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[log_close]</local-name>
+            <parent-name>[transformed_merged_data.csv]</parent-name>
+            <remote-alias>log_close</remote-alias>
+            <ordinal>92</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+          </metadata-record>
+        </metadata-records>
+      </connection>
+      <aliases enabled='yes' />
+      <column aggregation='Sum' datatype='real' name='[For Year]' role='dimension' type='ordinal' />
+      <column datatype='string' name='[GICS Sector]' role='dimension' type='nominal' />
+      <_.fcp.ObjectModelTableType.true...column caption='transformed_merged_data.csv' datatype='table' name='[__tableau_internal_object_id__].[transformed_merged_data.csv_9C16A265D2254E0BBC94808FC6FB219B]' role='measure' type='quantitative' />
+      <column caption='Close' datatype='real' name='[close]' role='measure' type='quantitative' />
+      <column caption='Date' datatype='date' name='[date]' role='dimension' type='ordinal' />
+      <column caption='High' datatype='real' name='[high]' role='measure' type='quantitative' />
+      <column caption='Log Close' datatype='real' name='[log_close]' role='measure' type='quantitative' />
+      <column caption='Low' datatype='real' name='[low]' role='measure' type='quantitative' />
+      <column caption='Open' datatype='real' name='[open]' role='measure' type='quantitative' />
+      <column caption='Symbol' datatype='string' name='[symbol]' role='dimension' type='nominal' />
+      <column caption='Volume' datatype='real' name='[volume]' role='measure' type='quantitative' />
+      <column-instance column='[symbol]' derivation='Attribute' name='[attr:symbol:nk]' pivot='key' type='nominal' />
+      <column-instance column='[Forecast Indicator]' derivation='None' forecast-column-base='[Forecast Indicator]' forecast-column-type='forecast-indicator' name='[none:Forecast Indicator:nk]' pivot='key' type='nominal' />
+      <column-instance column='[GICS Sector]' derivation='None' name='[none:GICS Sector:nk]' pivot='key' type='nominal' />
+      <column-instance column='[symbol]' derivation='None' name='[none:symbol:nk]' pivot='key' type='nominal' />
+      <layout _.fcp.SchemaViewerObjectModel.false...dim-percentage='0.5' _.fcp.SchemaViewerObjectModel.false...measure-percentage='0.4' dim-ordering='alphabetic' measure-ordering='alphabetic' show-structure='true' />
+      <style>
+        <style-rule element='mark'>
+          <encoding attr='color' field='[none:symbol:nk]' type='palette'>
+            <map to='#499894'>
+              <bucket>&quot;ADSK&quot;</bucket>
+            </map>
+            <map to='#499894'>
+              <bucket>&quot;BWA&quot;</bucket>
+            </map>
+            <map to='#499894'>
+              <bucket>&quot;DIS&quot;</bucket>
+            </map>
+            <map to='#499894'>
+              <bucket>&quot;FLIR&quot;</bucket>
+            </map>
+            <map to='#499894'>
+              <bucket>&quot;HRL&quot;</bucket>
+            </map>
+            <map to='#499894'>
+              <bucket>&quot;LKQ&quot;</bucket>
+            </map>
+            <map to='#499894'>
+              <bucket>&quot;MOS&quot;</bucket>
+            </map>
+            <map to='#499894'>
+              <bucket>&quot;PM&quot;</bucket>
+            </map>
+            <map to='#499894'>
+              <bucket>&quot;SRCL&quot;</bucket>
+            </map>
+            <map to='#499894'>
+              <bucket>&quot;ULTA&quot;</bucket>
+            </map>
+            <map to='#4e79a7'>
+              <bucket>&quot;ATVI&quot;</bucket>
+            </map>
+            <map to='#4e79a7'>
+              <bucket>&quot;COO&quot;</bucket>
+            </map>
+            <map to='#4e79a7'>
+              <bucket>&quot;EQT&quot;</bucket>
+            </map>
+            <map to='#4e79a7'>
+              <bucket>&quot;HAS&quot;</bucket>
+            </map>
+            <map to='#4e79a7'>
+              <bucket>&quot;ITW&quot;</bucket>
+            </map>
+            <map to='#4e79a7'>
+              <bucket>&quot;MAT&quot;</bucket>
+            </map>
+            <map to='#4e79a7'>
+              <bucket>&quot;NWL&quot;</bucket>
+            </map>
+            <map to='#4e79a7'>
+              <bucket>&quot;RRC&quot;</bucket>
+            </map>
+            <map to='#4e79a7'>
+              <bucket>&quot;TGT&quot;</bucket>
+            </map>
+            <map to='#4e79a7'>
+              <bucket>&quot;XEC&quot;</bucket>
+            </map>
+            <map to='#59a14f'>
+              <bucket>&quot;ABT&quot;</bucket>
+            </map>
+            <map to='#59a14f'>
+              <bucket>&quot;AMGN&quot;</bucket>
+            </map>
+            <map to='#59a14f'>
+              <bucket>&quot;BAX&quot;</bucket>
+            </map>
+            <map to='#59a14f'>
+              <bucket>&quot;CSX&quot;</bucket>
+            </map>
+            <map to='#59a14f'>
+              <bucket>&quot;FAST&quot;</bucket>
+            </map>
+            <map to='#59a14f'>
+              <bucket>&quot;HOLX&quot;</bucket>
+            </map>
+            <map to='#59a14f'>
+              <bucket>&quot;JWN&quot;</bucket>
+            </map>
+            <map to='#59a14f'>
+              <bucket>&quot;MHK&quot;</bucket>
+            </map>
+            <map to='#59a14f'>
+              <bucket>&quot;PCAR&quot;</bucket>
+            </map>
+            <map to='#59a14f'>
+              <bucket>&quot;SIG&quot;</bucket>
+            </map>
+            <map to='#59a14f'>
+              <bucket>&quot;TSS&quot;</bucket>
+            </map>
+            <map to='#76b7b2'>
+              <bucket>&quot;MSFT&quot;</bucket>
+            </map>
+            <map to='#79706e'>
+              <bucket>&quot;ALB&quot;</bucket>
+            </map>
+            <map to='#79706e'>
+              <bucket>&quot;CF&quot;</bucket>
+            </map>
+            <map to='#79706e'>
+              <bucket>&quot;DOV&quot;</bucket>
+            </map>
+            <map to='#79706e'>
+              <bucket>&quot;FSLR&quot;</bucket>
+            </map>
+            <map to='#79706e'>
+              <bucket>&quot;IDXX&quot;</bucket>
+            </map>
+            <map to='#79706e'>
+              <bucket>&quot;LOW&quot;</bucket>
+            </map>
+            <map to='#79706e'>
+              <bucket>&quot;MU&quot;</bucket>
+            </map>
+            <map to='#79706e'>
+              <bucket>&quot;PX&quot;</bucket>
+            </map>
+            <map to='#79706e'>
+              <bucket>&quot;SWN&quot;</bucket>
+            </map>
+            <map to='#79706e'>
+              <bucket>&quot;VRSK&quot;</bucket>
+            </map>
+            <map to='#86bcb6'>
+              <bucket>&quot;AEE&quot;</bucket>
+            </map>
+            <map to='#86bcb6'>
+              <bucket>&quot;CAG&quot;</bucket>
+            </map>
+            <map to='#86bcb6'>
+              <bucket>&quot;DISCA&quot;</bucket>
+            </map>
+            <map to='#86bcb6'>
+              <bucket>&quot;FLR&quot;</bucket>
+            </map>
+            <map to='#86bcb6'>
+              <bucket>&quot;HRS&quot;</bucket>
+            </map>
+            <map to='#86bcb6'>
+              <bucket>&quot;LLY&quot;</bucket>
+            </map>
+            <map to='#86bcb6'>
+              <bucket>&quot;MRO&quot;</bucket>
+            </map>
+            <map to='#86bcb6'>
+              <bucket>&quot;PNR&quot;</bucket>
+            </map>
+            <map to='#86bcb6'>
+              <bucket>&quot;STX&quot;</bucket>
+            </map>
+            <map to='#86bcb6'>
+              <bucket>&quot;URBN&quot;</bucket>
+            </map>
+            <map to='#8cd17d'>
+              <bucket>&quot;ADBE&quot;</bucket>
+            </map>
+            <map to='#8cd17d'>
+              <bucket>&quot;BCR&quot;</bucket>
+            </map>
+            <map to='#8cd17d'>
+              <bucket>&quot;CXO&quot;</bucket>
+            </map>
+            <map to='#8cd17d'>
+              <bucket>&quot;FDX&quot;</bucket>
+            </map>
+            <map to='#8cd17d'>
+              <bucket>&quot;HON&quot;</bucket>
+            </map>
+            <map to='#8cd17d'>
+              <bucket>&quot;KMX&quot;</bucket>
+            </map>
+            <map to='#8cd17d'>
+              <bucket>&quot;MJN&quot;</bucket>
+            </map>
+            <map to='#8cd17d'>
+              <bucket>&quot;PCLN&quot;</bucket>
+            </map>
+            <map to='#8cd17d'>
+              <bucket>&quot;SJM&quot;</bucket>
+            </map>
+            <map to='#8cd17d'>
+              <bucket>&quot;TXT&quot;</bucket>
+            </map>
+            <map to='#9d7660'>
+              <bucket>&quot;APD&quot;</bucket>
+            </map>
+            <map to='#9d7660'>
+              <bucket>&quot;APH&quot;</bucket>
+            </map>
+            <map to='#9d7660'>
+              <bucket>&quot;CNP&quot;</bucket>
+            </map>
+            <map to='#9d7660'>
+              <bucket>&quot;GRMN&quot;</bucket>
+            </map>
+            <map to='#9d7660'>
+              <bucket>&quot;IRM&quot;</bucket>
+            </map>
+            <map to='#9d7660'>
+              <bucket>&quot;MA&quot;</bucket>
+            </map>
+            <map to='#9d7660'>
+              <bucket>&quot;NKE&quot;</bucket>
+            </map>
+            <map to='#9d7660'>
+              <bucket>&quot;ROP&quot;</bucket>
+            </map>
+            <map to='#9d7660'>
+              <bucket>&quot;TEL&quot;</bucket>
+            </map>
+            <map to='#9d7660'>
+              <bucket>&quot;WMT&quot;</bucket>
+            </map>
+            <map to='#a0cbe8'>
+              <bucket>&quot;AAL&quot;</bucket>
+            </map>
+            <map to='#a0cbe8'>
+              <bucket>&quot;AVY&quot;</bucket>
+            </map>
+            <map to='#a0cbe8'>
+              <bucket>&quot;COST&quot;</bucket>
+            </map>
+            <map to='#a0cbe8'>
+              <bucket>&quot;EW&quot;</bucket>
+            </map>
+            <map to='#a0cbe8'>
+              <bucket>&quot;HBI&quot;</bucket>
+            </map>
+            <map to='#a0cbe8'>
+              <bucket>&quot;IVZ&quot;</bucket>
+            </map>
+            <map to='#a0cbe8'>
+              <bucket>&quot;MCD&quot;</bucket>
+            </map>
+            <map to='#a0cbe8'>
+              <bucket>&quot;OKE&quot;</bucket>
+            </map>
+            <map to='#a0cbe8'>
+              <bucket>&quot;RSG&quot;</bucket>
+            </map>
+            <map to='#a0cbe8'>
+              <bucket>&quot;TJX&quot;</bucket>
+            </map>
+            <map to='#a0cbe8'>
+              <bucket>&quot;XRAY&quot;</bucket>
+            </map>
+            <map to='#b07aa1'>
+              <bucket>&quot;CMG&quot;</bucket>
+            </map>
+            <map to='#b07aa1'>
+              <bucket>&quot;ECL&quot;</bucket>
+            </map>
+            <map to='#b07aa1'>
+              <bucket>&quot;GPN&quot;</bucket>
+            </map>
+            <map to='#b07aa1'>
+              <bucket>&quot;INTU&quot;</bucket>
+            </map>
+            <map to='#b07aa1'>
+              <bucket>&quot;LVLT&quot;</bucket>
+            </map>
+            <map to='#b07aa1'>
+              <bucket>&quot;NFLX&quot;</bucket>
+            </map>
+            <map to='#b07aa1'>
+              <bucket>&quot;RHT&quot;</bucket>
+            </map>
+            <map to='#b07aa1'>
+              <bucket>&quot;TAP&quot;</bucket>
+            </map>
+            <map to='#b07aa1'>
+              <bucket>&quot;WEC&quot;</bucket>
+            </map>
+            <map to='#b6992d'>
+              <bucket>&quot;ADM&quot;</bucket>
+            </map>
+            <map to='#b6992d'>
+              <bucket>&quot;BDX&quot;</bucket>
+            </map>
+            <map to='#b6992d'>
+              <bucket>&quot;DAL&quot;</bucket>
+            </map>
+            <map to='#b6992d'>
+              <bucket>&quot;FFIV&quot;</bucket>
+            </map>
+            <map to='#b6992d'>
+              <bucket>&quot;HPQ&quot;</bucket>
+            </map>
+            <map to='#b6992d'>
+              <bucket>&quot;KSU&quot;</bucket>
+            </map>
+            <map to='#b6992d'>
+              <bucket>&quot;MLM&quot;</bucket>
+            </map>
+            <map to='#b6992d'>
+              <bucket>&quot;PH&quot;</bucket>
+            </map>
+            <map to='#b6992d'>
+              <bucket>&quot;SNA&quot;</bucket>
+            </map>
+            <map to='#b6992d'>
+              <bucket>&quot;UAL&quot;</bucket>
+            </map>
+            <map to='#bab0ac'>
+              <bucket>&quot;ALK&quot;</bucket>
+            </map>
+            <map to='#bab0ac'>
+              <bucket>&quot;CHD&quot;</bucket>
+            </map>
+            <map to='#bab0ac'>
+              <bucket>&quot;DPS&quot;</bucket>
+            </map>
+            <map to='#bab0ac'>
+              <bucket>&quot;GIS&quot;</bucket>
+            </map>
+            <map to='#bab0ac'>
+              <bucket>&quot;IFF&quot;</bucket>
+            </map>
+            <map to='#bab0ac'>
+              <bucket>&quot;LRCX&quot;</bucket>
+            </map>
+            <map to='#bab0ac'>
+              <bucket>&quot;NBL&quot;</bucket>
+            </map>
+            <map to='#bab0ac'>
+              <bucket>&quot;R&quot;</bucket>
+            </map>
+            <map to='#bab0ac'>
+              <bucket>&quot;SYMC&quot;</bucket>
+            </map>
+            <map to='#bab0ac'>
+              <bucket>&quot;VRTX&quot;</bucket>
+            </map>
+            <map to='#d37295'>
+              <bucket>&quot;ALXN&quot;</bucket>
+            </map>
+            <map to='#d37295'>
+              <bucket>&quot;CHTR&quot;</bucket>
+            </map>
+            <map to='#d37295'>
+              <bucket>&quot;DUK&quot;</bucket>
+            </map>
+            <map to='#d37295'>
+              <bucket>&quot;GM&quot;</bucket>
+            </map>
+            <map to='#d37295'>
+              <bucket>&quot;ILMN&quot;</bucket>
+            </map>
+            <map to='#d37295'>
+              <bucket>&quot;LUK&quot;</bucket>
+            </map>
+            <map to='#d37295'>
+              <bucket>&quot;NEE&quot;</bucket>
+            </map>
+            <map to='#d37295'>
+              <bucket>&quot;RCL&quot;</bucket>
+            </map>
+            <map to='#d37295'>
+              <bucket>&quot;SYY&quot;</bucket>
+            </map>
+            <map to='#d37295'>
+              <bucket>&quot;VZ&quot;</bucket>
+            </map>
+            <map to='#d4a6c8'>
+              <bucket>&quot;AMT&quot;</bucket>
+            </map>
+            <map to='#d4a6c8'>
+              <bucket>&quot;CMI&quot;</bucket>
+            </map>
+            <map to='#d4a6c8'>
+              <bucket>&quot;EMN&quot;</bucket>
+            </map>
+            <map to='#d4a6c8'>
+              <bucket>&quot;GPS&quot;</bucket>
+            </map>
+            <map to='#d4a6c8'>
+              <bucket>&quot;IPG&quot;</bucket>
+            </map>
+            <map to='#d4a6c8'>
+              <bucket>&quot;LYB&quot;</bucket>
+            </map>
+            <map to='#d4a6c8'>
+              <bucket>&quot;NFX&quot;</bucket>
+            </map>
+            <map to='#d4a6c8'>
+              <bucket>&quot;RL&quot;</bucket>
+            </map>
+            <map to='#d4a6c8'>
+              <bucket>&quot;TDC&quot;</bucket>
+            </map>
+            <map to='#d4a6c8'>
+              <bucket>&quot;WMB&quot;</bucket>
+            </map>
+            <map to='#d7b5a6'>
+              <bucket>&quot;ARNC&quot;</bucket>
+            </map>
+            <map to='#d7b5a6'>
+              <bucket>&quot;COG&quot;</bucket>
+            </map>
+            <map to='#d7b5a6'>
+              <bucket>&quot;EQIX&quot;</bucket>
+            </map>
+            <map to='#d7b5a6'>
+              <bucket>&quot;GWW&quot;</bucket>
+            </map>
+            <map to='#d7b5a6'>
+              <bucket>&quot;ISRG&quot;</bucket>
+            </map>
+            <map to='#d7b5a6'>
+              <bucket>&quot;MAS&quot;</bucket>
+            </map>
+            <map to='#d7b5a6'>
+              <bucket>&quot;ROST&quot;</bucket>
+            </map>
+            <map to='#d7b5a6'>
+              <bucket>&quot;TGNA&quot;</bucket>
+            </map>
+            <map to='#d7b5a6'>
+              <bucket>&quot;WYNN&quot;</bucket>
+            </map>
+            <map to='#e15759'>
+              <bucket>&quot;CCI&quot;</bucket>
+            </map>
+            <map to='#e15759'>
+              <bucket>&quot;CRM&quot;</bucket>
+            </map>
+            <map to='#e15759'>
+              <bucket>&quot;DLTR&quot;</bucket>
+            </map>
+            <map to='#e15759'>
+              <bucket>&quot;FLS&quot;</bucket>
+            </map>
+            <map to='#e15759'>
+              <bucket>&quot;HSIC&quot;</bucket>
+            </map>
+            <map to='#e15759'>
+              <bucket>&quot;LMT&quot;</bucket>
+            </map>
+            <map to='#e15759'>
+              <bucket>&quot;NUE&quot;</bucket>
+            </map>
+            <map to='#e15759'>
+              <bucket>&quot;PVH&quot;</bucket>
+            </map>
+            <map to='#e15759'>
+              <bucket>&quot;SWK&quot;</bucket>
+            </map>
+            <map to='#e15759'>
+              <bucket>&quot;VAR&quot;</bucket>
+            </map>
+            <map to='#edc948'>
+              <bucket>&quot;AAPL&quot;</bucket>
+            </map>
+            <map to='#f1ce63'>
+              <bucket>&quot;ADS&quot;</bucket>
+            </map>
+            <map to='#f1ce63'>
+              <bucket>&quot;BLL&quot;</bucket>
+            </map>
+            <map to='#f1ce63'>
+              <bucket>&quot;DG&quot;</bucket>
+            </map>
+            <map to='#f1ce63'>
+              <bucket>&quot;FL&quot;</bucket>
+            </map>
+            <map to='#f1ce63'>
+              <bucket>&quot;HRB&quot;</bucket>
+            </map>
+            <map to='#f1ce63'>
+              <bucket>&quot;LB&quot;</bucket>
+            </map>
+            <map to='#f1ce63'>
+              <bucket>&quot;MON&quot;</bucket>
+            </map>
+            <map to='#f1ce63'>
+              <bucket>&quot;PKI&quot;</bucket>
+            </map>
+            <map to='#f1ce63'>
+              <bucket>&quot;SNI&quot;</bucket>
+            </map>
+            <map to='#f1ce63'>
+              <bucket>&quot;UHS&quot;</bucket>
+            </map>
+            <map to='#f28e2b'>
+              <bucket>&quot;AMZN&quot;</bucket>
+            </map>
+            <map to='#f28e2b'>
+              <bucket>&quot;AWK&quot;</bucket>
+            </map>
+            <map to='#f28e2b'>
+              <bucket>&quot;EMR&quot;</bucket>
+            </map>
+            <map to='#f28e2b'>
+              <bucket>&quot;EXPD&quot;</bucket>
+            </map>
+            <map to='#f28e2b'>
+              <bucket>&quot;HD&quot;</bucket>
+            </map>
+            <map to='#f28e2b'>
+              <bucket>&quot;JBHT&quot;</bucket>
+            </map>
+            <map to='#f28e2b'>
+              <bucket>&quot;MCHP&quot;</bucket>
+            </map>
+            <map to='#f28e2b'>
+              <bucket>&quot;ORLY&quot;</bucket>
+            </map>
+            <map to='#f28e2b'>
+              <bucket>&quot;SCG&quot;</bucket>
+            </map>
+            <map to='#f28e2b'>
+              <bucket>&quot;TSCO&quot;</bucket>
+            </map>
+            <map to='#f28e2b'>
+              <bucket>&quot;YUM&quot;</bucket>
+            </map>
+            <map to='#fabfd2'>
+              <bucket>&quot;AME&quot;</bucket>
+            </map>
+            <map to='#fabfd2'>
+              <bucket>&quot;CLX&quot;</bucket>
+            </map>
+            <map to='#fabfd2'>
+              <bucket>&quot;DVA&quot;</bucket>
+            </map>
+            <map to='#fabfd2'>
+              <bucket>&quot;GPC&quot;</bucket>
+            </map>
+            <map to='#fabfd2'>
+              <bucket>&quot;INTC&quot;</bucket>
+            </map>
+            <map to='#fabfd2'>
+              <bucket>&quot;LUV&quot;</bucket>
+            </map>
+            <map to='#fabfd2'>
+              <bucket>&quot;NEM&quot;</bucket>
+            </map>
+            <map to='#fabfd2'>
+              <bucket>&quot;REGN&quot;</bucket>
+            </map>
+            <map to='#fabfd2'>
+              <bucket>&quot;T&quot;</bucket>
+            </map>
+            <map to='#fabfd2'>
+              <bucket>&quot;WDC&quot;</bucket>
+            </map>
+            <map to='#ff9d9a'>
+              <bucket>&quot;AKAM&quot;</bucket>
+            </map>
+            <map to='#ff9d9a'>
+              <bucket>&quot;CERN&quot;</bucket>
+            </map>
+            <map to='#ff9d9a'>
+              <bucket>&quot;DNB&quot;</bucket>
+            </map>
+            <map to='#ff9d9a'>
+              <bucket>&quot;FMC&quot;</bucket>
+            </map>
+            <map to='#ff9d9a'>
+              <bucket>&quot;HST&quot;</bucket>
+            </map>
+            <map to='#ff9d9a'>
+              <bucket>&quot;LNT&quot;</bucket>
+            </map>
+            <map to='#ff9d9a'>
+              <bucket>&quot;MTD&quot;</bucket>
+            </map>
+            <map to='#ff9d9a'>
+              <bucket>&quot;PWR&quot;</bucket>
+            </map>
+            <map to='#ff9d9a'>
+              <bucket>&quot;SWKS&quot;</bucket>
+            </map>
+            <map to='#ff9d9a'>
+              <bucket>&quot;VFC&quot;</bucket>
+            </map>
+            <map to='#ffbe7d'>
+              <bucket>&quot;AAP&quot;</bucket>
+            </map>
+            <map to='#ffbe7d'>
+              <bucket>&quot;AYI&quot;</bucket>
+            </map>
+            <map to='#ffbe7d'>
+              <bucket>&quot;CSCO&quot;</bucket>
+            </map>
+            <map to='#ffbe7d'>
+              <bucket>&quot;EXPE&quot;</bucket>
+            </map>
+            <map to='#ffbe7d'>
+              <bucket>&quot;HES&quot;</bucket>
+            </map>
+            <map to='#ffbe7d'>
+              <bucket>&quot;JEC&quot;</bucket>
+            </map>
+            <map to='#ffbe7d'>
+              <bucket>&quot;MDLZ&quot;</bucket>
+            </map>
+            <map to='#ffbe7d'>
+              <bucket>&quot;OXY&quot;</bucket>
+            </map>
+            <map to='#ffbe7d'>
+              <bucket>&quot;SHW&quot;</bucket>
+            </map>
+            <map to='#ffbe7d'>
+              <bucket>&quot;TSO&quot;</bucket>
+            </map>
+          </encoding>
+          <encoding attr='color' field='[attr:symbol:nk]' type='palette'>
+            <map to='#4e79a7'>
+              <bucket>&quot;AAPL&quot;</bucket>
+            </map>
+            <map to='#76b7b2'>
+              <bucket>&quot;MSFT&quot;</bucket>
+            </map>
+            <map to='#e15759'>
+              <bucket>&quot;CRM&quot;</bucket>
+            </map>
+            <map to='#f28e2b'>
+              <bucket>&quot;AMZN&quot;</bucket>
+            </map>
+          </encoding>
+          <encoding attr='color' field='[none:symbol:nk]&#10;[none:Forecast Indicator:nk]' type='palette'>
+            <map-pri to='multiordinal_blue_10_0'>
+              <bucket>&quot;AAL&quot;</bucket>
+            </map-pri>
+            <map-pri to='multiordinal_blue_10_0'>
+              <bucket>&quot;CHD&quot;</bucket>
+            </map-pri>
+            <map-pri to='multiordinal_blue_10_0'>
+              <bucket>&quot;FLIR&quot;</bucket>
+            </map-pri>
+            <map-pri to='multiordinal_blue_10_0'>
+              <bucket>&quot;HOLX&quot;</bucket>
+            </map-pri>
+            <map-pri to='multiordinal_blue_10_0'>
+              <bucket>&quot;MHK&quot;</bucket>
+            </map-pri>
+            <map-pri to='multiordinal_blue_10_0'>
+              <bucket>&quot;MSFT&quot;</bucket>
+            </map-pri>
+            <map-pri to='multiordinal_blue_10_0'>
+              <bucket>&quot;SWK&quot;</bucket>
+            </map-pri>
+            <map-pri to='multiordinal_blue_10_0'>
+              <bucket>&quot;WDC&quot;</bucket>
+            </map-pri>
+            <map-pri to='multiordinal_brown_10_0'>
+              <bucket>&quot;AYI&quot;</bucket>
+            </map-pri>
+            <map-pri to='multiordinal_brown_10_0'>
+              <bucket>&quot;FFIV&quot;</bucket>
+            </map-pri>
+            <map-pri to='multiordinal_brown_10_0'>
+              <bucket>&quot;HBI&quot;</bucket>
+            </map-pri>
+            <map-pri to='multiordinal_brown_10_0'>
+              <bucket>&quot;MAT&quot;</bucket>
+            </map-pri>
+            <map-pri to='multiordinal_brown_10_0'>
+              <bucket>&quot;MCHP&quot;</bucket>
+            </map-pri>
+            <map-pri to='multiordinal_brown_10_0'>
+              <bucket>&quot;SNA&quot;</bucket>
+            </map-pri>
+            <map-pri to='multiordinal_brown_10_0'>
+              <bucket>&quot;TSS&quot;</bucket>
+            </map-pri>
+            <map-pri to='multiordinal_brown_10_0'>
+              <bucket>&quot;XEC&quot;</bucket>
+            </map-pri>
+            <map-pri to='multiordinal_gold_10_0'>
+              <bucket>&quot;ADS&quot;</bucket>
+            </map-pri>
+            <map-pri to='multiordinal_gold_10_0'>
+              <bucket>&quot;ADSK&quot;</bucket>
+            </map-pri>
+            <map-pri to='multiordinal_gold_10_0'>
+              <bucket>&quot;CXO&quot;</bucket>
+            </map-pri>
+            <map-pri to='multiordinal_gold_10_0'>
+              <bucket>&quot;ILMN&quot;</bucket>
+            </map-pri>
+            <map-pri to='multiordinal_gold_10_0'>
+              <bucket>&quot;OXY&quot;</bucket>
+            </map-pri>
+            <map-pri to='multiordinal_gold_10_0'>
+              <bucket>&quot;RHT&quot;</bucket>
+            </map-pri>
+            <map-pri to='multiordinal_gold_10_0'>
+              <bucket>&quot;UAL&quot;</bucket>
+            </map-pri>
+            <map-pri to='multiordinal_gray_10_0'>
+              <bucket>&quot;AME&quot;</bucket>
+            </map-pri>
+            <map-pri to='multiordinal_gray_10_0'>
+              <bucket>&quot;FL&quot;</bucket>
+            </map-pri>
+            <map-pri to='multiordinal_gray_10_0'>
+              <bucket>&quot;HPQ&quot;</bucket>
+            </map-pri>
+            <map-pri to='multiordinal_gray_10_0'>
+              <bucket>&quot;INTU&quot;</bucket>
+            </map-pri>
+            <map-pri to='multiordinal_gray_10_0'>
+              <bucket>&quot;LKQ&quot;</bucket>
+            </map-pri>
+            <map-pri to='multiordinal_gray_10_0'>
+              <bucket>&quot;RCL&quot;</bucket>
+            </map-pri>
+            <map-pri to='multiordinal_gray_10_0'>
+              <bucket>&quot;SYMC&quot;</bucket>
+            </map-pri>
+            <map-pri to='multiordinal_gray_10_0'>
+              <bucket>&quot;VRSK&quot;</bucket>
+            </map-pri>
+            <map-pri to='multiordinal_green_10_0'>
+              <bucket>&quot;AAPL&quot;</bucket>
+            </map-pri>
+            <map-pri to='multiordinal_green_10_0'>
+              <bucket>&quot;COO&quot;</bucket>
+            </map-pri>
+            <map-pri to='multiordinal_green_10_0'>
+              <bucket>&quot;FSLR&quot;</bucket>
+            </map-pri>
+            <map-pri to='multiordinal_green_10_0'>
+              <bucket>&quot;IDXX&quot;</bucket>
+            </map-pri>
+            <map-pri to='multiordinal_green_10_0'>
+              <bucket>&quot;MTD&quot;</bucket>
+            </map-pri>
+            <map-pri to='multiordinal_green_10_0'>
+              <bucket>&quot;NFLX&quot;</bucket>
+            </map-pri>
+            <map-pri to='multiordinal_green_10_0'>
+              <bucket>&quot;TSCO&quot;</bucket>
+            </map-pri>
+            <map-pri to='multiordinal_orange_10_0'>
+              <bucket>&quot;AAP&quot;</bucket>
+            </map-pri>
+            <map-pri to='multiordinal_orange_10_0'>
+              <bucket>&quot;ADBE&quot;</bucket>
+            </map-pri>
+            <map-pri to='multiordinal_orange_10_0'>
+              <bucket>&quot;CHTR&quot;</bucket>
+            </map-pri>
+            <map-pri to='multiordinal_orange_10_0'>
+              <bucket>&quot;HSIC&quot;</bucket>
+            </map-pri>
+            <map-pri to='multiordinal_orange_10_0'>
+              <bucket>&quot;MLM&quot;</bucket>
+            </map-pri>
+            <map-pri to='multiordinal_orange_10_0'>
+              <bucket>&quot;MU&quot;</bucket>
+            </map-pri>
+            <map-pri to='multiordinal_orange_10_0'>
+              <bucket>&quot;SWKS&quot;</bucket>
+            </map-pri>
+            <map-pri to='multiordinal_pink_10_0'>
+              <bucket>&quot;ATVI&quot;</bucket>
+            </map-pri>
+            <map-pri to='multiordinal_pink_10_0'>
+              <bucket>&quot;CRM&quot;</bucket>
+            </map-pri>
+            <map-pri to='multiordinal_pink_10_0'>
+              <bucket>&quot;GM&quot;</bucket>
+            </map-pri>
+            <map-pri to='multiordinal_pink_10_0'>
+              <bucket>&quot;LNT&quot;</bucket>
+            </map-pri>
+            <map-pri to='multiordinal_pink_10_0'>
+              <bucket>&quot;LRCX&quot;</bucket>
+            </map-pri>
+            <map-pri to='multiordinal_pink_10_0'>
+              <bucket>&quot;REGN&quot;</bucket>
+            </map-pri>
+            <map-pri to='multiordinal_pink_10_0'>
+              <bucket>&quot;TDC&quot;</bucket>
+            </map-pri>
+            <map-pri to='multiordinal_pink_10_0'>
+              <bucket>&quot;VRTX&quot;</bucket>
+            </map-pri>
+            <map-pri to='multiordinal_purple_10_0'>
+              <bucket>&quot;AWK&quot;</bucket>
+            </map-pri>
+            <map-pri to='multiordinal_purple_10_0'>
+              <bucket>&quot;CSCO&quot;</bucket>
+            </map-pri>
+            <map-pri to='multiordinal_purple_10_0'>
+              <bucket>&quot;GPN&quot;</bucket>
+            </map-pri>
+            <map-pri to='multiordinal_purple_10_0'>
+              <bucket>&quot;LVLT&quot;</bucket>
+            </map-pri>
+            <map-pri to='multiordinal_purple_10_0'>
+              <bucket>&quot;MA&quot;</bucket>
+            </map-pri>
+            <map-pri to='multiordinal_purple_10_0'>
+              <bucket>&quot;SIG&quot;</bucket>
+            </map-pri>
+            <map-pri to='multiordinal_purple_10_0'>
+              <bucket>&quot;TEL&quot;</bucket>
+            </map-pri>
+            <map-pri to='multiordinal_purple_10_0'>
+              <bucket>&quot;WMT&quot;</bucket>
+            </map-pri>
+            <map-pri to='multiordinal_red_10_0'>
+              <bucket>&quot;ALK&quot;</bucket>
+            </map-pri>
+            <map-pri to='multiordinal_red_10_0'>
+              <bucket>&quot;APH&quot;</bucket>
+            </map-pri>
+            <map-pri to='multiordinal_red_10_0'>
+              <bucket>&quot;EQIX&quot;</bucket>
+            </map-pri>
+            <map-pri to='multiordinal_red_10_0'>
+              <bucket>&quot;INTC&quot;</bucket>
+            </map-pri>
+            <map-pri to='multiordinal_red_10_0'>
+              <bucket>&quot;KSU&quot;</bucket>
+            </map-pri>
+            <map-pri to='multiordinal_red_10_0'>
+              <bucket>&quot;R&quot;</bucket>
+            </map-pri>
+            <map-pri to='multiordinal_red_10_0'>
+              <bucket>&quot;ULTA&quot;</bucket>
+            </map-pri>
+            <map-pri to='multiordinal_teal_10_0'>
+              <bucket>&quot;AKAM&quot;</bucket>
+            </map-pri>
+            <map-pri to='multiordinal_teal_10_0'>
+              <bucket>&quot;ALB&quot;</bucket>
+            </map-pri>
+            <map-pri to='multiordinal_teal_10_0'>
+              <bucket>&quot;DAL&quot;</bucket>
+            </map-pri>
+            <map-pri to='multiordinal_teal_10_0'>
+              <bucket>&quot;HRS&quot;</bucket>
+            </map-pri>
+            <map-pri to='multiordinal_teal_10_0'>
+              <bucket>&quot;JBHT&quot;</bucket>
+            </map-pri>
+            <map-pri to='multiordinal_teal_10_0'>
+              <bucket>&quot;PVH&quot;</bucket>
+            </map-pri>
+            <map-pri to='multiordinal_teal_10_0'>
+              <bucket>&quot;STX&quot;</bucket>
+            </map-pri>
+            <map-pri to='multiordinal_teal_10_0'>
+              <bucket>&quot;UHS&quot;</bucket>
+            </map-pri>
+          </encoding>
+          <encoding attr='color' field='[none:GICS Sector:nk]' type='palette'>
+            <map to='#499894'>
+              <bucket>&quot;Real Estate&quot;</bucket>
+            </map>
+            <map to='#4e79a7'>
+              <bucket>&quot;Consumer Discretionary&quot;</bucket>
+            </map>
+            <map to='#59a14f'>
+              <bucket>&quot;Health Care&quot;</bucket>
+            </map>
+            <map to='#86bcb6'>
+              <bucket>&quot;Telecommunications Services&quot;</bucket>
+            </map>
+            <map to='#8cd17d'>
+              <bucket>&quot;Industrials&quot;</bucket>
+            </map>
+            <map to='#a0cbe8'>
+              <bucket>&quot;Consumer Staples&quot;</bucket>
+            </map>
+            <map to='#b6992d'>
+              <bucket>&quot;Information Technology&quot;</bucket>
+            </map>
+            <map to='#e15759'>
+              <bucket>&quot;Utilities&quot;</bucket>
+            </map>
+            <map to='#f1ce63'>
+              <bucket>&quot;Materials&quot;</bucket>
+            </map>
+            <map to='#f28e2b'>
+              <bucket>&quot;Energy&quot;</bucket>
+            </map>
+            <map to='#ffbe7d'>
+              <bucket>&quot;Financials&quot;</bucket>
+            </map>
+          </encoding>
+        </style-rule>
+      </style>
+      <semantic-values>
+        <semantic-value key='[Country].[Name]' value='&quot;Canada&quot;' />
+      </semantic-values>
+      <default-sorts>
+        <manual-sort column='[none:Forecast Indicator:nk]' direction='ASC'>
+          <dictionary>
+            <bucket>&quot;Actual&quot;</bucket>
+            <bucket>&quot;Estimate&quot;</bucket>
+          </dictionary>
+        </manual-sort>
+      </default-sorts>
+      <_.fcp.ObjectModelEncapsulateLegacy.true...object-graph>
+        <objects>
+          <object caption='transformed_merged_data.csv' id='transformed_merged_data.csv_9C16A265D2254E0BBC94808FC6FB219B'>
+            <properties context=''>
+              <relation connection='textscan.17otsh40gavxz81f9rnes0w3gnmn' name='transformed_merged_data.csv' table='[transformed_merged_data#csv]' type='table'>
+                <columns character-set='UTF-8' header='yes' locale='en_CA' separator=','>
+                  <column datatype='date' name='date' ordinal='0' />
+                  <column datatype='string' name='symbol' ordinal='1' />
+                  <column datatype='real' name='open' ordinal='2' />
+                  <column datatype='real' name='close' ordinal='3' />
+                  <column datatype='real' name='low' ordinal='4' />
+                  <column datatype='real' name='high' ordinal='5' />
+                  <column datatype='real' name='volume' ordinal='6' />
+                  <column datatype='integer' name='Unnamed: 0' ordinal='7' />
+                  <column datatype='date' name='Period Ending' ordinal='8' />
+                  <column datatype='real' name='Accounts Payable' ordinal='9' />
+                  <column datatype='real' name='Accounts Receivable' ordinal='10' />
+                  <column datatype='real' name='Add&apos;l income/expense items' ordinal='11' />
+                  <column datatype='real' name='After Tax ROE' ordinal='12' />
+                  <column datatype='real' name='Capital Expenditures' ordinal='13' />
+                  <column datatype='real' name='Capital Surplus' ordinal='14' />
+                  <column datatype='real' name='Cash Ratio' ordinal='15' />
+                  <column datatype='real' name='Cash and Cash Equivalents' ordinal='16' />
+                  <column datatype='real' name='Changes in Inventories' ordinal='17' />
+                  <column datatype='real' name='Common Stocks' ordinal='18' />
+                  <column datatype='real' name='Cost of Revenue' ordinal='19' />
+                  <column datatype='real' name='Current Ratio' ordinal='20' />
+                  <column datatype='real' name='Deferred Asset Charges' ordinal='21' />
+                  <column datatype='real' name='Deferred Liability Charges' ordinal='22' />
+                  <column datatype='real' name='Depreciation' ordinal='23' />
+                  <column datatype='real' name='Earnings Before Interest and Tax' ordinal='24' />
+                  <column datatype='real' name='Earnings Before Tax' ordinal='25' />
+                  <column datatype='real' name='Effect of Exchange Rate' ordinal='26' />
+                  <column datatype='real' name='Equity Earnings/Loss Unconsolidated Subsidiary' ordinal='27' />
+                  <column datatype='real' name='Fixed Assets' ordinal='28' />
+                  <column datatype='real' name='Goodwill' ordinal='29' />
+                  <column datatype='real' name='Gross Margin' ordinal='30' />
+                  <column datatype='real' name='Gross Profit' ordinal='31' />
+                  <column datatype='real' name='Income Tax' ordinal='32' />
+                  <column datatype='real' name='Intangible Assets' ordinal='33' />
+                  <column datatype='real' name='Interest Expense' ordinal='34' />
+                  <column datatype='real' name='Inventory' ordinal='35' />
+                  <column datatype='real' name='Investments' ordinal='36' />
+                  <column datatype='real' name='Liabilities' ordinal='37' />
+                  <column datatype='real' name='Long-Term Debt' ordinal='38' />
+                  <column datatype='real' name='Long-Term Investments' ordinal='39' />
+                  <column datatype='real' name='Minority Interest' ordinal='40' />
+                  <column datatype='real' name='Misc. Stocks' ordinal='41' />
+                  <column datatype='real' name='Net Borrowings' ordinal='42' />
+                  <column datatype='real' name='Net Cash Flow' ordinal='43' />
+                  <column datatype='real' name='Net Cash Flow-Operating' ordinal='44' />
+                  <column datatype='real' name='Net Cash Flows-Financing' ordinal='45' />
+                  <column datatype='real' name='Net Cash Flows-Investing' ordinal='46' />
+                  <column datatype='real' name='Net Income' ordinal='47' />
+                  <column datatype='real' name='Net Income Adjustments' ordinal='48' />
+                  <column datatype='real' name='Net Income Applicable to Common Shareholders' ordinal='49' />
+                  <column datatype='real' name='Net Income-Cont. Operations' ordinal='50' />
+                  <column datatype='real' name='Net Receivables' ordinal='51' />
+                  <column datatype='real' name='Non-Recurring Items' ordinal='52' />
+                  <column datatype='real' name='Operating Income' ordinal='53' />
+                  <column datatype='real' name='Operating Margin' ordinal='54' />
+                  <column datatype='real' name='Other Assets' ordinal='55' />
+                  <column datatype='real' name='Other Current Assets' ordinal='56' />
+                  <column datatype='real' name='Other Current Liabilities' ordinal='57' />
+                  <column datatype='real' name='Other Equity' ordinal='58' />
+                  <column datatype='real' name='Other Financing Activities' ordinal='59' />
+                  <column datatype='real' name='Other Investing Activities' ordinal='60' />
+                  <column datatype='real' name='Other Liabilities' ordinal='61' />
+                  <column datatype='real' name='Other Operating Activities' ordinal='62' />
+                  <column datatype='real' name='Other Operating Items' ordinal='63' />
+                  <column datatype='real' name='Pre-Tax Margin' ordinal='64' />
+                  <column datatype='real' name='Pre-Tax ROE' ordinal='65' />
+                  <column datatype='real' name='Profit Margin' ordinal='66' />
+                  <column datatype='real' name='Quick Ratio' ordinal='67' />
+                  <column datatype='real' name='Research and Development' ordinal='68' />
+                  <column datatype='real' name='Retained Earnings' ordinal='69' />
+                  <column datatype='real' name='Sale and Purchase of Stock' ordinal='70' />
+                  <column datatype='real' name='Sales, General and Admin.' ordinal='71' />
+                  <column datatype='real' name='Short-Term Debt / Current Portion of Long-Term Debt' ordinal='72' />
+                  <column datatype='real' name='Short-Term Investments' ordinal='73' />
+                  <column datatype='real' name='Total Assets' ordinal='74' />
+                  <column datatype='real' name='Total Current Assets' ordinal='75' />
+                  <column datatype='real' name='Total Current Liabilities' ordinal='76' />
+                  <column datatype='real' name='Total Equity' ordinal='77' />
+                  <column datatype='real' name='Total Liabilities' ordinal='78' />
+                  <column datatype='real' name='Total Liabilities &amp; Equity' ordinal='79' />
+                  <column datatype='real' name='Total Revenue' ordinal='80' />
+                  <column datatype='real' name='Treasury Stock' ordinal='81' />
+                  <column datatype='real' name='For Year' ordinal='82' />
+                  <column datatype='real' name='Earnings Per Share' ordinal='83' />
+                  <column datatype='real' name='Estimated Shares Outstanding' ordinal='84' />
+                  <column datatype='string' name='Security' ordinal='85' />
+                  <column datatype='string' name='SEC filings' ordinal='86' />
+                  <column datatype='string' name='GICS Sector' ordinal='87' />
+                  <column datatype='string' name='GICS Sub Industry' ordinal='88' />
+                  <column datatype='string' name='Address of Headquarters' ordinal='89' />
+                  <column datatype='date' name='Date first added' ordinal='90' />
+                  <column datatype='integer' name='CIK' ordinal='91' />
+                  <column datatype='real' name='log_close' ordinal='92' />
+                </columns>
+              </relation>
+            </properties>
+          </object>
+        </objects>
+      </_.fcp.ObjectModelEncapsulateLegacy.true...object-graph>
+    </datasource>
+  </datasources>
+  <worksheets>
+    <worksheet name='Maximum Revenue made for each group from 2013-2017'>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='transformed_merged_data' name='federated.0w4u8zv1eds7q2112i53i1yg4owu' />
+          </datasources>
+          <datasource-dependencies datasource='federated.0w4u8zv1eds7q2112i53i1yg4owu'>
+            <column datatype='date' name='[Date first added]' role='dimension' type='ordinal' />
+            <column datatype='string' name='[GICS Sector]' role='dimension' type='nominal' />
+            <column datatype='real' name='[Total Revenue]' role='measure' type='quantitative' />
+            <column-instance column='[Total Revenue]' derivation='Max' name='[max:Total Revenue:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[GICS Sector]' derivation='None' name='[none:GICS Sector:nk]' pivot='key' type='nominal' />
+            <column-instance column='[Total Revenue]' derivation='Sum' name='[sum:Total Revenue:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[Date first added]' derivation='Year' name='[yr:Date first added:ok]' pivot='key' type='ordinal' />
+          </datasource-dependencies>
+          <computed-sort column='[federated.0w4u8zv1eds7q2112i53i1yg4owu].[none:GICS Sector:nk]' direction='DESC' using='[federated.0w4u8zv1eds7q2112i53i1yg4owu].[sum:Total Revenue:qk]' />
+          <filter class='categorical' column='[federated.0w4u8zv1eds7q2112i53i1yg4owu].[yr:Date first added:ok]'>
+            <groupfilter function='union' user:ui-domain='database' user:ui-enumeration='inclusive' user:ui-marker='enumerate'>
+              <groupfilter function='member' level='[yr:Date first added:ok]' member='2013' />
+              <groupfilter function='member' level='[yr:Date first added:ok]' member='2014' />
+              <groupfilter function='member' level='[yr:Date first added:ok]' member='2015' />
+              <groupfilter function='member' level='[yr:Date first added:ok]' member='2016' />
+              <groupfilter function='member' level='[yr:Date first added:ok]' member='2017' />
+            </groupfilter>
+          </filter>
+          <slices>
+            <column>[federated.0w4u8zv1eds7q2112i53i1yg4owu].[yr:Date first added:ok]</column>
+          </slices>
+          <aggregation value='true' />
+        </view>
+        <style />
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Pie' />
+            <encodings>
+              <color column='[federated.0w4u8zv1eds7q2112i53i1yg4owu].[none:GICS Sector:nk]' />
+              <text column='[federated.0w4u8zv1eds7q2112i53i1yg4owu].[max:Total Revenue:qk]' />
+              <text column='[federated.0w4u8zv1eds7q2112i53i1yg4owu].[none:GICS Sector:nk]' />
+            </encodings>
+            <style>
+              <style-rule element='mark'>
+                <format attr='mark-labels-show' value='true' />
+                <format attr='mark-labels-cull' value='true' />
+              </style-rule>
+            </style>
+          </pane>
+        </panes>
+        <rows />
+        <cols />
+      </table>
+      <simple-id uuid='{15BC72E5-F66A-4532-BDF8-DBA3F0527E60}' />
+    </worksheet>
+    <worksheet name='Sheet 6'>
+      <table>
+        <view>
+          <datasources />
+          <aggregation value='true' />
+        </view>
+        <style />
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Automatic' />
+          </pane>
+        </panes>
+        <rows />
+        <cols />
+      </table>
+      <simple-id uuid='{3FCAFFE9-8FAD-4BF0-9D79-F57A12F7042F}' />
+    </worksheet>
+    <worksheet name='Stock trend over time'>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='transformed_merged_data' name='federated.0w4u8zv1eds7q2112i53i1yg4owu' />
+          </datasources>
+          <datasource-dependencies datasource='federated.0w4u8zv1eds7q2112i53i1yg4owu'>
+            <column datatype='date' name='[Date first added]' role='dimension' type='ordinal' />
+            <column datatype='string' name='[GICS Sector]' role='dimension' type='nominal' />
+            <column caption='Close' datatype='real' name='[close]' role='measure' type='quantitative' />
+            <column-instance column='[close]' derivation='CountD' name='[ctd:close:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[GICS Sector]' derivation='None' name='[none:GICS Sector:nk]' pivot='key' type='nominal' />
+            <column-instance column='[symbol]' derivation='None' name='[none:symbol:nk]' pivot='key' type='nominal' />
+            <column caption='Symbol' datatype='string' name='[symbol]' role='dimension' type='nominal' />
+            <column-instance column='[Date first added]' derivation='Year' name='[yr:Date first added:ok]' pivot='key' type='ordinal' />
+          </datasource-dependencies>
+          <filter class='categorical' column='[federated.0w4u8zv1eds7q2112i53i1yg4owu].[none:GICS Sector:nk]'>
+            <groupfilter function='member' level='[none:GICS Sector:nk]' member='&quot;Information Technology&quot;' user:ui-domain='database' user:ui-enumeration='inclusive' user:ui-marker='enumerate' />
+          </filter>
+          <filter class='categorical' column='[federated.0w4u8zv1eds7q2112i53i1yg4owu].[none:symbol:nk]'>
+            <groupfilter function='except' user:ui-domain='database' user:ui-enumeration='inclusive' user:ui-marker='enumerate'>
+              <groupfilter function='level-members' level='[none:symbol:nk]' />
+              <groupfilter function='member' level='[none:symbol:nk]' member='%null%' />
+            </groupfilter>
+          </filter>
+          <filter class='categorical' column='[federated.0w4u8zv1eds7q2112i53i1yg4owu].[yr:Date first added:ok]'>
+            <groupfilter from='1964' function='range' level='[yr:Date first added:ok]' to='2017' user:ui-domain='database' user:ui-enumeration='inclusive' user:ui-marker='enumerate' />
+          </filter>
+          <slices>
+            <column>[federated.0w4u8zv1eds7q2112i53i1yg4owu].[none:symbol:nk]</column>
+            <column>[federated.0w4u8zv1eds7q2112i53i1yg4owu].[yr:Date first added:ok]</column>
+            <column>[federated.0w4u8zv1eds7q2112i53i1yg4owu].[none:GICS Sector:nk]</column>
+          </slices>
+          <aggregation value='true' />
+        </view>
+        <style>
+          <style-rule element='axis'>
+            <encoding attr='space' class='0' domain-expand='false' field='[federated.0w4u8zv1eds7q2112i53i1yg4owu].[ctd:close:qk]' field-type='quantitative' scope='rows' type='space' />
+          </style-rule>
+        </style>
+        <panes>
+          <pane id='1' selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Bar' />
+            <encodings>
+              <lod column='[federated.0w4u8zv1eds7q2112i53i1yg4owu].[ctd:close:qk]' />
+              <color column='[federated.0w4u8zv1eds7q2112i53i1yg4owu].[none:symbol:nk]' />
+            </encodings>
+            <style>
+              <style-rule element='mark'>
+                <format attr='mark-labels-show' value='true' />
+                <format attr='mark-labels-cull' value='true' />
+              </style-rule>
+            </style>
+          </pane>
+        </panes>
+        <rows>[federated.0w4u8zv1eds7q2112i53i1yg4owu].[ctd:close:qk]</rows>
+        <cols>([federated.0w4u8zv1eds7q2112i53i1yg4owu].[yr:Date first added:ok] / [federated.0w4u8zv1eds7q2112i53i1yg4owu].[none:GICS Sector:nk])</cols>
+      </table>
+      <simple-id uuid='{C443094E-2CD4-451F-AB53-3561691B29CC}' />
+    </worksheet>
+    <worksheet name='Total Revenue by each sector'>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='transformed_merged_data' name='federated.0w4u8zv1eds7q2112i53i1yg4owu' />
+          </datasources>
+          <datasource-dependencies datasource='federated.0w4u8zv1eds7q2112i53i1yg4owu'>
+            <column datatype='date' name='[Date first added]' role='dimension' type='ordinal' />
+            <column datatype='string' name='[GICS Sector]' role='dimension' type='nominal' />
+            <column datatype='real' name='[Total Revenue]' role='measure' type='quantitative' />
+            <column-instance column='[GICS Sector]' derivation='None' name='[none:GICS Sector:nk]' pivot='key' type='nominal' />
+            <column-instance column='[Total Revenue]' derivation='Sum' name='[sum:Total Revenue:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[Date first added]' derivation='Year' name='[yr:Date first added:ok]' pivot='key' type='ordinal' />
+          </datasource-dependencies>
+          <filter class='categorical' column='[federated.0w4u8zv1eds7q2112i53i1yg4owu].[yr:Date first added:ok]'>
+            <groupfilter from='1964' function='range' level='[yr:Date first added:ok]' to='2017' user:ui-domain='database' user:ui-enumeration='inclusive' user:ui-marker='enumerate' />
+          </filter>
+          <shelf-sorts>
+            <shelf-sort-v2 dimension-to-sort='[federated.0w4u8zv1eds7q2112i53i1yg4owu].[none:GICS Sector:nk]' direction='DESC' is-on-innermost-dimension='true' measure-to-sort-by='[federated.0w4u8zv1eds7q2112i53i1yg4owu].[sum:Total Revenue:qk]' shelf='columns' />
+          </shelf-sorts>
+          <slices>
+            <column>[federated.0w4u8zv1eds7q2112i53i1yg4owu].[yr:Date first added:ok]</column>
+          </slices>
+          <aggregation value='true' />
+        </view>
+        <style />
+        <panes>
+          <pane id='1' selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Bar' />
+            <encodings>
+              <color column='[federated.0w4u8zv1eds7q2112i53i1yg4owu].[none:GICS Sector:nk]' />
+            </encodings>
+          </pane>
+        </panes>
+        <rows>[federated.0w4u8zv1eds7q2112i53i1yg4owu].[sum:Total Revenue:qk]</rows>
+        <cols>[federated.0w4u8zv1eds7q2112i53i1yg4owu].[none:GICS Sector:nk]</cols>
+      </table>
+      <simple-id uuid='{8E4706D5-5FC3-4B47-A585-5BD06BB7FEAD}' />
+    </worksheet>
+    <worksheet name='Total Revenue vs Net Income'>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='transformed_merged_data' name='federated.0w4u8zv1eds7q2112i53i1yg4owu' />
+          </datasources>
+          <datasource-dependencies datasource='federated.0w4u8zv1eds7q2112i53i1yg4owu'>
+            <column datatype='date' name='[Date first added]' role='dimension' type='ordinal' />
+            <column datatype='string' name='[GICS Sector]' role='dimension' type='nominal' />
+            <column datatype='real' name='[Net Income]' role='measure' type='quantitative' />
+            <column datatype='real' name='[Total Revenue]' role='measure' type='quantitative' />
+            <column-instance column='[Net Income]' derivation='Count' name='[cnt:Net Income:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[GICS Sector]' derivation='None' name='[none:GICS Sector:nk]' pivot='key' type='nominal' />
+            <column-instance column='[symbol]' derivation='None' name='[none:symbol:nk]' pivot='key' type='nominal' />
+            <column-instance column='[Total Revenue]' derivation='Sum' name='[sum:Total Revenue:qk]' pivot='key' type='quantitative' />
+            <column caption='Symbol' datatype='string' name='[symbol]' role='dimension' type='nominal' />
+            <column-instance column='[Date first added]' derivation='Year' name='[yr:Date first added:ok]' pivot='key' type='ordinal' />
+          </datasource-dependencies>
+          <filter class='categorical' column='[federated.0w4u8zv1eds7q2112i53i1yg4owu].[none:GICS Sector:nk]'>
+            <groupfilter function='member' level='[none:GICS Sector:nk]' member='&quot;Information Technology&quot;' user:ui-domain='database' user:ui-enumeration='inclusive' user:ui-marker='enumerate' />
+          </filter>
+          <filter class='categorical' column='[federated.0w4u8zv1eds7q2112i53i1yg4owu].[none:symbol:nk]'>
+            <groupfilter function='except' user:ui-domain='database' user:ui-enumeration='inclusive' user:ui-marker='enumerate'>
+              <groupfilter function='level-members' level='[none:symbol:nk]' />
+              <groupfilter function='member' level='[none:symbol:nk]' member='%null%' />
+            </groupfilter>
+          </filter>
+          <filter class='categorical' column='[federated.0w4u8zv1eds7q2112i53i1yg4owu].[yr:Date first added:ok]'>
+            <groupfilter function='union' user:ui-domain='database' user:ui-enumeration='inclusive' user:ui-marker='enumerate'>
+              <groupfilter function='member' level='[yr:Date first added:ok]' member='2013' />
+              <groupfilter function='member' level='[yr:Date first added:ok]' member='2014' />
+              <groupfilter function='member' level='[yr:Date first added:ok]' member='2015' />
+              <groupfilter function='member' level='[yr:Date first added:ok]' member='2016' />
+              <groupfilter function='member' level='[yr:Date first added:ok]' member='2017' />
+            </groupfilter>
+          </filter>
+          <slices>
+            <column>[federated.0w4u8zv1eds7q2112i53i1yg4owu].[none:symbol:nk]</column>
+            <column>[federated.0w4u8zv1eds7q2112i53i1yg4owu].[none:GICS Sector:nk]</column>
+            <column>[federated.0w4u8zv1eds7q2112i53i1yg4owu].[yr:Date first added:ok]</column>
+          </slices>
+          <aggregation value='true' />
+        </view>
+        <style>
+          <style-rule element='axis'>
+            <encoding attr='space' class='0' domain-expand='false' field='[federated.0w4u8zv1eds7q2112i53i1yg4owu].[cnt:Net Income:qk]' field-type='quantitative' scope='rows' type='space' />
+          </style-rule>
+        </style>
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Circle' />
+            <encodings>
+              <text column='[federated.0w4u8zv1eds7q2112i53i1yg4owu].[sum:Total Revenue:qk]' />
+              <text column='[federated.0w4u8zv1eds7q2112i53i1yg4owu].[none:symbol:nk]' />
+              <color column='[federated.0w4u8zv1eds7q2112i53i1yg4owu].[none:symbol:nk]' />
+            </encodings>
+            <style>
+              <style-rule element='mark'>
+                <format attr='mark-labels-show' value='true' />
+                <format attr='mark-labels-cull' value='true' />
+              </style-rule>
+            </style>
+          </pane>
+        </panes>
+        <rows>[federated.0w4u8zv1eds7q2112i53i1yg4owu].[cnt:Net Income:qk]</rows>
+        <cols>([federated.0w4u8zv1eds7q2112i53i1yg4owu].[none:GICS Sector:nk] * [federated.0w4u8zv1eds7q2112i53i1yg4owu].[sum:Total Revenue:qk])</cols>
+      </table>
+      <simple-id uuid='{F07551BB-68E7-40D4-95E7-3792C081F308}' />
+    </worksheet>
+    <worksheet name='Total Stock Traded'>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='transformed_merged_data' name='federated.0w4u8zv1eds7q2112i53i1yg4owu' />
+          </datasources>
+          <datasource-dependencies datasource='federated.0w4u8zv1eds7q2112i53i1yg4owu'>
+            <column datatype='string' name='[GICS Sector]' role='dimension' type='nominal' />
+            <column caption='Date' datatype='date' name='[date]' role='dimension' type='ordinal' />
+            <column-instance column='[GICS Sector]' derivation='None' name='[none:GICS Sector:nk]' pivot='key' type='nominal' />
+            <column-instance column='[symbol]' derivation='None' name='[none:symbol:nk]' pivot='key' type='nominal' />
+            <column-instance column='[volume]' derivation='Sum' name='[sum:volume:qk]' pivot='key' type='quantitative' />
+            <column caption='Symbol' datatype='string' name='[symbol]' role='dimension' type='nominal' />
+            <column caption='Volume' datatype='real' name='[volume]' role='measure' type='quantitative' />
+            <column-instance column='[date]' derivation='Year' name='[yr:date:ok]' pivot='key' type='ordinal' />
+          </datasource-dependencies>
+          <filter class='categorical' column='[federated.0w4u8zv1eds7q2112i53i1yg4owu].[none:GICS Sector:nk]'>
+            <groupfilter function='member' level='[none:GICS Sector:nk]' member='&quot;Information Technology&quot;' user:ui-domain='database' user:ui-enumeration='inclusive' user:ui-marker='enumerate' />
+          </filter>
+          <filter class='categorical' column='[federated.0w4u8zv1eds7q2112i53i1yg4owu].[none:symbol:nk]'>
+            <groupfilter function='except' user:ui-domain='database' user:ui-enumeration='inclusive' user:ui-marker='enumerate'>
+              <groupfilter function='level-members' level='[none:symbol:nk]' />
+              <groupfilter function='member' level='[none:symbol:nk]' member='%null%' />
+            </groupfilter>
+          </filter>
+          <filter class='categorical' column='[federated.0w4u8zv1eds7q2112i53i1yg4owu].[yr:date:ok]'>
+            <groupfilter function='union' user:ui-domain='database' user:ui-enumeration='inclusive' user:ui-marker='enumerate'>
+              <groupfilter function='member' level='[yr:date:ok]' member='2010' />
+              <groupfilter function='member' level='[yr:date:ok]' member='2011' />
+            </groupfilter>
+          </filter>
+          <shelf-sorts>
+            <shelf-sort-v2 dimension-to-sort='[federated.0w4u8zv1eds7q2112i53i1yg4owu].[none:symbol:nk]' direction='DESC' measure-to-sort-by='[federated.0w4u8zv1eds7q2112i53i1yg4owu].[sum:volume:qk]' shelf='columns' />
+          </shelf-sorts>
+          <slices>
+            <column>[federated.0w4u8zv1eds7q2112i53i1yg4owu].[none:symbol:nk]</column>
+            <column>[federated.0w4u8zv1eds7q2112i53i1yg4owu].[none:GICS Sector:nk]</column>
+            <column>[federated.0w4u8zv1eds7q2112i53i1yg4owu].[yr:date:ok]</column>
+          </slices>
+          <aggregation value='true' />
+        </view>
+        <style>
+          <style-rule element='axis'>
+            <encoding attr='space' class='0' domain-expand='false' field='[federated.0w4u8zv1eds7q2112i53i1yg4owu].[sum:volume:qk]' field-type='quantitative' scope='rows' type='space' />
+          </style-rule>
+        </style>
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Bar' />
+            <encodings>
+              <color column='[federated.0w4u8zv1eds7q2112i53i1yg4owu].[none:symbol:nk]' />
+              <text column='[federated.0w4u8zv1eds7q2112i53i1yg4owu].[sum:volume:qk]' />
+            </encodings>
+            <style>
+              <style-rule element='mark'>
+                <format attr='mark-labels-show' value='true' />
+                <format attr='mark-labels-cull' value='true' />
+              </style-rule>
+            </style>
+          </pane>
+        </panes>
+        <rows>[federated.0w4u8zv1eds7q2112i53i1yg4owu].[sum:volume:qk]</rows>
+        <cols>([federated.0w4u8zv1eds7q2112i53i1yg4owu].[none:symbol:nk] / [federated.0w4u8zv1eds7q2112i53i1yg4owu].[none:GICS Sector:nk])</cols>
+      </table>
+      <simple-id uuid='{A6D7AA49-2CC7-46C6-AC80-44BC9147FB7D}' />
+    </worksheet>
+  </worksheets>
+  <windows source-height='30'>
+    <window class='worksheet' maximized='true' name='Stock trend over time'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='31'>
+            <card type='title' />
+          </strip>
+        </edge>
+        <edge name='right'>
+          <strip size='160'>
+            <card pane-specification-id='1' param='[federated.0w4u8zv1eds7q2112i53i1yg4owu].[none:symbol:nk]' type='color' />
+          </strip>
+        </edge>
+      </cards>
+      <viewpoint>
+        <zoom type='entire-view' />
+        <highlight>
+          <color-one-way>
+            <field>[federated.0w4u8zv1eds7q2112i53i1yg4owu].[none:For Year:qk]</field>
+            <field>[federated.0w4u8zv1eds7q2112i53i1yg4owu].[none:GICS Sector:nk]</field>
+            <field>[federated.0w4u8zv1eds7q2112i53i1yg4owu].[none:symbol:nk]</field>
+            <field>[federated.0w4u8zv1eds7q2112i53i1yg4owu].[yr:Date first added:ok]</field>
+            <field>[federated.0w4u8zv1eds7q2112i53i1yg4owu].[yr:date:ok]</field>
+          </color-one-way>
+        </highlight>
+      </viewpoint>
+      <simple-id uuid='{56DEFED9-CE58-43C0-8616-153E79D1D938}' />
+    </window>
+    <window class='worksheet' name='Total Stock Traded'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='31'>
+            <card type='title' />
+          </strip>
+        </edge>
+        <edge name='right'>
+          <strip size='160'>
+            <card pane-specification-id='0' param='[federated.0w4u8zv1eds7q2112i53i1yg4owu].[none:symbol:nk]' type='color' />
+          </strip>
+        </edge>
+      </cards>
+      <viewpoint>
+        <zoom type='entire-view' />
+        <highlight>
+          <color-one-way>
+            <field>[federated.0w4u8zv1eds7q2112i53i1yg4owu].[Calculation_676102944093253632]</field>
+            <field>[federated.0w4u8zv1eds7q2112i53i1yg4owu].[Calculation_676102944093253633]</field>
+            <field>[federated.0w4u8zv1eds7q2112i53i1yg4owu].[none:GICS Sector:nk]</field>
+            <field>[federated.0w4u8zv1eds7q2112i53i1yg4owu].[none:symbol:nk]</field>
+            <field>[federated.0w4u8zv1eds7q2112i53i1yg4owu].[yr:Date first added:ok]</field>
+            <field>[federated.0w4u8zv1eds7q2112i53i1yg4owu].[yr:date:ok]</field>
+          </color-one-way>
+        </highlight>
+      </viewpoint>
+      <simple-id uuid='{030362AC-1B32-4ACF-9A71-130751348DF8}' />
+    </window>
+    <window class='worksheet' name='Total Revenue vs Net Income'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='31'>
+            <card type='title' />
+          </strip>
+        </edge>
+        <edge name='right'>
+          <strip size='160'>
+            <card pane-specification-id='0' param='[federated.0w4u8zv1eds7q2112i53i1yg4owu].[none:symbol:nk]' type='color' />
+          </strip>
+        </edge>
+      </cards>
+      <viewpoint>
+        <highlight>
+          <color-one-way>
+            <field>[federated.0w4u8zv1eds7q2112i53i1yg4owu].[none:GICS Sector:nk]</field>
+            <field>[federated.0w4u8zv1eds7q2112i53i1yg4owu].[none:symbol:nk]</field>
+            <field>[federated.0w4u8zv1eds7q2112i53i1yg4owu].[yr:Date first added:ok]</field>
+          </color-one-way>
+        </highlight>
+      </viewpoint>
+      <simple-id uuid='{1E05571D-6A0E-4292-B6F6-BC64FA2B6A8B}' />
+    </window>
+    <window class='worksheet' name='Total Revenue by each sector'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='31'>
+            <card type='title' />
+          </strip>
+        </edge>
+        <edge name='right'>
+          <strip size='160'>
+            <card pane-specification-id='1' param='[federated.0w4u8zv1eds7q2112i53i1yg4owu].[none:GICS Sector:nk]' type='color' />
+          </strip>
+        </edge>
+      </cards>
+      <viewpoint>
+        <zoom type='entire-view' />
+        <highlight>
+          <color-one-way>
+            <field>[federated.0w4u8zv1eds7q2112i53i1yg4owu].[none:For Year:ok]</field>
+            <field>[federated.0w4u8zv1eds7q2112i53i1yg4owu].[none:For Year:qk]</field>
+            <field>[federated.0w4u8zv1eds7q2112i53i1yg4owu].[none:GICS Sector:nk]</field>
+            <field>[federated.0w4u8zv1eds7q2112i53i1yg4owu].[none:symbol:nk]</field>
+            <field>[federated.0w4u8zv1eds7q2112i53i1yg4owu].[yr:Date first added:ok]</field>
+          </color-one-way>
+        </highlight>
+      </viewpoint>
+      <simple-id uuid='{B4179A71-3ECB-4335-8057-33CD88A25134}' />
+    </window>
+    <window class='worksheet' name='Maximum Revenue made for each group from 2013-2017'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='31'>
+            <card type='title' />
+          </strip>
+        </edge>
+        <edge name='right'>
+          <strip size='160'>
+            <card pane-specification-id='0' param='[federated.0w4u8zv1eds7q2112i53i1yg4owu].[none:GICS Sector:nk]' type='color' />
+          </strip>
+        </edge>
+      </cards>
+      <viewpoint>
+        <zoom type='entire-view' />
+        <highlight>
+          <color-one-way>
+            <field>[federated.0w4u8zv1eds7q2112i53i1yg4owu].[none:GICS Sector:nk]</field>
+            <field>[federated.0w4u8zv1eds7q2112i53i1yg4owu].[yr:Date first added:ok]</field>
+          </color-one-way>
+        </highlight>
+      </viewpoint>
+      <simple-id uuid='{516C55F1-4F3F-4B2F-AEDF-C61760E788DC}' />
+    </window>
+    <window class='worksheet' name='Sheet 6'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='31'>
+            <card type='title' />
+          </strip>
+        </edge>
+      </cards>
+      <viewpoint>
+        <zoom type='entire-view' />
+        <highlight>
+          <color-one-way>
+            <field>[federated.0w4u8zv1eds7q2112i53i1yg4owu].[none:symbol:nk]</field>
+            <field>[federated.0w4u8zv1eds7q2112i53i1yg4owu].[yr:Date first added:ok]</field>
+            <field>[federated.0w4u8zv1eds7q2112i53i1yg4owu].[yr:date:ok]</field>
+          </color-one-way>
+        </highlight>
+      </viewpoint>
+      <simple-id uuid='{88D70AD6-3C6B-4CC9-852F-D7BF0138D4BA}' />
+    </window>
+  </windows>
+  <thumbnails>
+    <thumbnail height='192' name='Maximum Revenue made for each group from 2013-2017' width='192'>
+      iVBORw0KGgoAAAANSUhEUgAAAMAAAADACAYAAABS3GwHAAAACXBIWXMAAA7DAAAOwwHHb6hk
+      AAAYtElEQVR4nO3daWwcZ57f8W9V9X2zu3k0bx2USHNErWQd9tjW2BbinQGSmd2Md2dngyDI
+      CwN5MwPsqyBA3gd+EeRFgGBfJJPdBJsgO8gMEMyOL1n2WJZs2ZallTQSSR0Uj26yyWY3j767
+      up68oCRLI0q8Scn1/wACDHb1U1XG86unqvpfT2lKKYUQNqXv9AYIsZMkAMLWJADC1iQAwtYk
+      AMLWJADC1iQAwtYkAMLWJADC1iQAwtYkAMLWJADC1iQAwtYkAMLWJADC1iQAwtYkAMLWJADC
+      1iQAwtYkAMLWJADC1iQAwtYkAMLWJADC1iQAwtYkAMLWJADC1iQAwtYkAMLWJADC1iQAwtYk
+      AMLWJADC1iQAwtYkAMLWJADC1iQAwtYkAMLWJADC1iQAwtYkAMLWJADC1iQAwtYkAMLWHDu9
+      AeLpNTg4yOjoKCdPnuSTTz4BoFwu4/V6AThx4gQff/wxlmVRq9Xo6+vj0qVLDAwMUCgUGBsb
+      IxAIAFAqlWhsbOTIkSM7si+XLl2iWCxSLBbp6uoCIJ1OywggHs/lcjEwMIDD4aClpYXDhw/T
+      2tpKV1cX2WyWSqUCLIVibm6OyclJuru72bVrF6Zp0traisvlwuv1Eo/HsSxrR/ajVqtx5coV
+      pqeniUajdHd3k8lkSKfTaEoptSNbJZ56V69epVKpEAwGaWxsxOFw8NVXX7F7925mZ2fxer14
+      PJ77I0A8HscwDObn5/H5fGQyGcLhMJZlUSqViMfjRKPRHdmXer1OJpPh2rVrhEIhuru7uXPn
+      jgRA2JtcA4gVDQ8PMzo6yiuvvILH4wGWTntmZmbIZDIopTh8+DDFYhEAn89HoVBA1/X71wtP
+      k0wmg8/nw+fzyQggVnbhwgVGRkbwer1MTEzg9XoJhULs27ePTCZDIBDgypUrxGIxAoEAFy9e
+      pKmpiUQiwWeffcabb77J/v37V70+pRT5aoVKzaRSNynXapRNk4ZgDafuxqk7cOhOXLobl+Fe
+      8/6Mj48zOjrK9PS0BECsLJ1OY5om2WyWcrlMrVbD6/WSSCSYnZ2lUqmglCIQCLCwsEA+n6ep
+      qYlyucz8/DwDAwPE4/Fl284WCgzNTDOWyzI5P89YLkt6cZFCtYKl1P1/oDj54jQAGhqapqOj
+      43P4aXDHiLiiRD1x4p4Wmr0J3IbnsfszNzfHwsICbrdbAiC212K5zOVUkiuTSS6nUkzM5TBX
+      dXfomwCsxKm7aPYmaPfvoiPQTauvA4fuXHZZCYDYcuVajS/HRzlz6yYXxsco1WrraGX1AfhD
+      PkeAnlAffQ0DJHwd6No3d/8lAGLLjOdy/L+rlzlz+yYL5fIGW1t/AO7R0Ghwx3iu4Y8YiB7B
+      65CLYLHJlFIMTaf59eVLfHZnZJWnN6tqecMBeJBLd9MfPSS3QcXmGUxP8bdfnudKKnn3wvXp
+      VbUqXMx8LgEQG7dYLvM3X3zOB0PXN/GIvz0kAGLd6pbFqeFB/vv5zzbhHH9nSADEumSLBf7z
+      Jx9zfvTOTm/KhkgAxJpNLlT4+0s3n/nOD/JAjFgDSykuJvOcujFH2NvM7viund6kDZMAiFUx
+      LcXZkQUuTxawFGiaxqH2g0S84Z3etA2RU6BnzPXr1xkaGuJHP/oRv/vd70in07jdbg4ePMip
+      U6d46623ePfddwGoVqsEg0EymQxHjx5lfn6eW7duEY1GqVQqmKZJPB7n+PHjT1xnxbQ4c3ue
+      5EL1ob87DAfHuo9yeuhjTMvcsn3eSjICPGM8Hg9+vx+lFMFgkF27dqGU4syZM5imSblcxuFw
+      YFkWiUSCYrHI/v37KRQKmKZJR0cHTqeTQCBAU1PTiusr1eqcupF7pPPf0+CLcKDtO5u9m9tG
+      RoBnjGVZ9PT0MDQ0dP+/HQ4Hhw4dYnFxkTt37tDb24tlWVSrVZ577jlGRkbweDy0t7czNTVF
+      LBajWq1SqVQeW6UJS0f+D4bnyJWefHTvadzDzOIME3PJzd7dLSelEGJZpqX4YDjHdH51hWvl
+      WoUPBj+kWC1u0RZtbinEPXIK9AxQSnHq1CmSySSWZaGUwrKs+/+UUsv+zbIsxsfHOX36NOPj
+      41iWRb1ev//Z9evXH1r2nrqlOHN7ftWdH8DjdHO063k0TduK/wVbRkaAZ0C5XObmzZtomsbQ
+      0ND9B9FzuRwul4ve3l7S6TSzs7M0NDRw5coVent7CQQCPP/885w9e5ZCocC+ffv45S9/yfHj
+      xzFNk+bmZs6ePUtfXx+3bt3iZz/7GQBfjC8yOF1a17ZeTf2e309e38zdv2trRgC5BngGeDwe
+      isUigUCASCTCc889h2EYpFIpHA4HY2NjHDhwALd76fHAcDhMLBajvb2dYrGI1+ult7eXUqnE
+      q6++immatLS0kEgkAIjFYkQiEZRSjOQq6+78AH0tvaQXZ8jkM5uy71tJKRkBxAPmSia/vZ6l
+      Zm2sSyyW85waPE21vvydo/XZ/BFgfsYr1wBiSa2u+HRkfsOdHyDoCfB856FN2KqtU6voDJ1v
+      lQCIpYvsS6k8s8XN+zGrM9rBrlj3prW3mZSCmxcSlPNuCYCAbNFkcHrzb18e6jhI+CkrlVAK
+      0iNhZsZCgNwGtT1LKb4YX2QTznwe4TScHO8+gqEbm9/4OhUX3Ny62AIs3a6VANjc7dnymu73
+      r1WDr4EDrf1b1v5a1E2NofOt1GvfBFICYGPVusXFZH7L17OvqYe2SOuWr+dJlII7VxrJZx+e
+      qlECYGM3ZkoUa1v/DK+maRzpPIzXuXPzhM4mA6SGY4/8XQJgU7W64lp6q+p2HuVxejjWdQSN
+      7S+VqBQd3PwqgVKPrlsCYFMj2e05+j+oJdxMb8vqJ8ndDJYFN75MUC0vPzWiBMCG6pbi+jYe
+      /R/Un+gj5n/0VGQrKAUTgzGyk8HHLiMBsKGZQo25cn1H1m3oBse7j+I0lj8ib6bFWS+jVxuf
+      uIwEwGaUUtzMrL/YbTMEPQGe79jaUol7pQ7KenIXlwDYjGkpJuYqO70ZdMU6t6xUQim49XUL
+      pcWVX54hAbCZcvIyDdPnMOo7cw3woEMdBwl6Hn9+vh5KwfSdMNOjqyvBkOcBbEQphePq3/Hd
+      oXeoOEKkG46SjJ9gJnII0+Hf9u1xGk5e6D7G6aGPqavNuSYpLri49fU3pQ4rkQDYiVWjPnEB
+      ALe5QOfMh3TOfEjFEWQ6coRU/CVmIoeoOiPbtklRfwMH2vq5NHF5w23VTY3h862YtdXXHkkA
+      bMTKjaIKjz5U4jYX6ch8REfmI0zdw0z4IKn4K0xGX6TqDMMWP+e7r6mH9MI0kwtT625DKRi9
+      2shi1rem70kAbKQ+8eWKyzisMonceRK585i6m0x4gGT8BOmGY5RdsS0Jg6ZpHO0+wgfXT1Gq
+      rW+W6WwqQHJo7b8vSABsQilFfeKrNX3HYVVoyX1JS+5LTN3NbOg7JOOvkG44RsndCNrm3UPx
+      3i2V+OTmWRRrq82ulBzceEypw0okAHahLOozg+v+usOq0Dx3gea5C1iaQS6wn1T8ZVKxlyh4
+      WjclDC3hFvY19zCUHl71d5QFN75IUC2t74c1CYBdmGXU4vrPsR+kqzqxxWvEFq/RP/JfmQv0
+      kIq/Qir2MnlvK2jrfwDmQGs/mXyG2UJ2xWWVgonh6BNLHVYis0I8hcbGxrhy5Qo/+MEPOHPm
+      DB0dHVy/fp3du3czODjIyZMnyefz99/SnkwmqdVq+P1+WlpauHjxIolEgvn5eXw+H5qm8UJv
+      M8X/8Sdbut0WOvOBPaRir5CKvUTe14FaRxgWy3nev37qDybcfXRWiIVZD5dPd2PV1zH6aCa6
+      NyMjwNPI7Xazb98+NE1jenqaUqnE3Nwcly5d4sUXXySXy9HV1UUul+Ozzz7D5XLR19dHT08P
+      g4OD9Pf3MzIyQkNDA7quL838lruz5dutY9GQv0FD/gZ9o39L3tvGZOwlUvGXmfPvRemr625B
+      T4DDnYf44s7jL9rNms7Q521r6/yaieGbwQiOY/gn0Z0lGQGeRsPDw2QyGSKRCC6XC8MwmJub
+      o6Wlhdu3bxONRvF4PNy5c4dXX32VTCaDpmkopSiXyySTSXbt2sXMzAw+nw9d12nNfETlzH/c
+      kf1RQMHTRir2XZLxE8wH9mLprhW/d37kS+5kR++3cm8EUAqGv2glPbKK3yu02jedPjCJ7nj4
+      LpMEwCYqZ/4T1a/+205vxt0wJJiMvkgy/j3mgvseG4Zavcb71z8kX8lzLwBKwfRomKHPW1n+
+      114FRhXDl8YIJDH8U+iOx9c+ySnQMyKfz/Ppp5/y8ssvEwgE1vx9VStswVatnQYEypP0pH7F
+      3tSvKLpbmIkcYqLxVWZD/dSNbx6bdBpOXth1jNNDH91/73A57+TmhT8sdVBgVDD8UziC4xi+
+      NJqxujmOJADPiEqlQrlc5tq1a4yPj6OUQtM0NE0jHo9TKpVoamoiEAjQ09PzyPdVbWdLoJej
+      Af7KFP70O3Sn36HsjJBuOL5UnxQeoO7wEfNHGWg7wKWJf0QpGPy87e6sDvc6/eTdTj+96k7/
+      IAnAM8LtduPxeIhEIrS1tTE1NYXX6yUcDnP58mXy+TyVSoXvf//7yzdQfTpGgCfx1Obomn6P
+      run3qDjDpCNLxXpG7I+YWkiTTRXJzysc4VsYwQkM3wyavrHZ7OQa4Fsgm83idDpRShEKhZZd
+      pvjrf0P9zqfbvGWbo+KLcbvhu/w6n2NCT1PXN6/LygjwLRCNRldcRnPs3JQka6V0HSIhiEXA
+      48bpCdL6q3GaT57gaPKvSetu8pqDccPPrOZGbaA+SQJgF661VUluN+VwQCQI8Sg0hMHlhLu3
+      dou/qVJPWZTc7RSDB+leXCrp7q/Ps6g5mND9jBp+spoba41hkADYhObe3CevNoNyOpY6e+Pd
+      Tu94tDvWrtapXbv7sIymkYz/EF95HG9tGg0IKZPn6vP01efJaw5Supcx3c+M7qG+ivokCYBN
+      aDs4K9uDlNMB0chSp4+Elu3099RnLYofPvySDUv3MNb8F/Qk/wu6+uYCWAOCymR/fZF99UXK
+      GCQNH6O6n2ndg/mYMEgAbELzPf51qFtJwdLpTDSydHoTCYFj5fogVVs69WGZ37BKrlYmo39M
+      2+w/LPtdDfBSZ299kT31RcropHQfY4afKd37UBgkADahR3dt27oUgMe9dBHbGINgAIy1FayV
+      P61Rn3rMzHWaxkz4ZQKlEcLFa09sZykMFnusPLutPJW7YZgwfEzqXgmAXeiRzi1t/36njzfc
+      7fR+0Nf3jEDtpknlyxXu72s6441/im9iAmd9YVXtaoAHi913w1BDkwDYheZvBFcAqps3HboC
+      8Hog1rB0Tr+BTn+PtWhRfLfKah4KMx0hxpreZPfk36Cx9nlOnSgJgG0YTvRQAitzY0PNKICA
+      b+l8Ph4Fn2fDnf5+25ai+F4VtYYfrRe9+5iOnKB57uN1rVMCYBOapqM39a8rAEud3r90lI83
+      gM+7JQ/HV74wMW+t8UiuaUw1/BMCpVv4K+NrXqfMDGcjjo6jq15WASroR+3qgGMH4fnvQFcb
+      +H1b0vnNyTrlT9f3qialOxhr+gmmvvZbvTIC2IjRduSJnytdg1Bw6UgfXSpD2Oo5gQCs8t1b
+      nhuYHK7iaiQZ/yGd0/9nTa/gkADYiBZsRot0oubG7v9N6RqEQ0udPhYBl2tbOv399StF6cMq
+      VnbjBW65wCGCxRtE81+v+jsSABvRdAeO9mNUFyYgHISm2NKR/m7dzU6oXatTu7pJ7yrQNCbi
+      P8RXGcdTm1nVVyQANuM4/GdUQyPgdOxYp7+nPmtROlVdecE1sAwvY00/YW/qrx8qlXgcuQi2
+      GSPaix5s2/HOr0xF8bdV1PpmQnyiorudyegbq1pWAmAzmmbgCB/e6c1YKnVIbdFL+u6WSix4
+      V34hnwTAhpzR46x2/vytULu1ilKHjdIMxprepGYs/4TcPRIAG9I9bRjBvh1Zt5W3KL5XYx2V
+      C2tmOkKMNf4Y9YSwSwBsSNN03M0/2Pb1KktRfLeKWty+x9AXffuZCb/y2M8lADZlBPZj+HZv
+      6zorX62j1GGjNI3J6BsU3B3LfiwBsClN03E1//G2rc+crFM+s75Sh41SupOxpj+nrnse+UwC
+      YGOO0EF0X/eWr0dVFMV/qMIWX/c+ScXVRDL2Tx+pspYA2JimO/C0/QVb2Q2UUpROVbFmd376
+      qWzwCLnAw7eAJQA2Z/j34Iy9tGXt167Vqf5+k0odNupuqUTZ+c27xCQANqdpGu7En6A51j7h
+      7krqubulDjt/8L/vXqmExdKD+RIAge4M42798aa2qcyl8/6tKHXYqKK7k8no0g0ACYAAwBl9
+      CUfDC5vWXvlsjXpym295rpamMRN5mQVvjwRALNE0HW/Hv0B3N2+4rdqdOpUvdvCWz2poBuON
+      b0o59LMql8tx7tw5XnvtNW7fvo1Simw2S3t7O6Ojo7z++utkMhnOnz9PV1cXMzMzOJ1Ompub
+      6ejo4IMPPqCtrY1UKkVnZyfT09OcPHkSb/dbFIbfBrW+e/ZWYanKcztKHTaq5ozICPCsCofD
+      mKaJZVmkUimmpqZwOp3kcjmam5eO4pFIhFqtRiQSoVQq4XQ6yWazLCws0N/fz9DQEAcPHmRq
+      aorGxkYsy0L3duFp/0vWUyy3VOpQ2dZSh42SEeAZde8Vqbdu3aK3t5epqSkMw8Dv9zM6Okqx
+      WCQUChEKhchms8RiMdxuN7quMzc3x8TEBN/73vcYGhqir6+PyclJDGPpzogr/gqqnqeS+r+r
+      3h6lFNWLJubNZ+DQ/wB5QYZYllKKSuqXVKffX9Xy5lSd/N9VtuzXXgX8r7f+5aa3K6dA3xJf
+      f/01hUKBK1euAFAoFHjw2GaaJvn80qxwExMTK7anaRru1h+v6s7Q01DqsF5yCvQtkUqlWFxc
+      xDAM3n77bfbs2cPevXv5zW9+w7Fjx2hubqZWq3H69GlOnDjB+fPnefHFF2ltbX1sm5pm4O36
+      15QNL7XMR8suo5Si9FEVK/NsnkjICPAt0d/fD4DH42H//v20t7cDcPjwYRKJBHv37qVQKNDT
+      00MwGKS9vZ3Z2dkV29U0A0/7X+Jq+Wcsd2Fcu16nevkpKXVYB7kGEKuilKKW+R3l5P8GtdTh
+      6zmL/P8so7bhDaxyDSB2lKZpuBpfxbfnr9CcDShTUXq3ui2dfytJAMSaOIK9+Pf/e6yJPsyx
+      Z+uW53IkAGLNdGeYyA//ivCf/xk4nTu9ORsiARDrohkG4X/+pyTe/g94BgZ2cpaVDZEAiA1x
+      trbS+O/+LbGf/xxHc9NOb86aye8AYsM0TcP/4gt4Bw6w+P4HLL73Ptbc3E5v1qrIbVCx6axy
+      meK5cyz85reYqdSmtLmZt0E1oCMS5Whnt4wAYvPpHg+B11/Hf+IEpa++onD2M8r/eAlV3Zlp
+      Ue7xOV30NDZxINFGe7gBTZO3RIotpDkc+F54Ad8LL2Bmc5S+/ILiuc+p3L4Nte0Jg8tw0B2N
+      0d/Syu5YHJfxcJeXUyCx7epzc1Ru3KRy7Rrla9cxUynUCoFY7SmQy3DQEgzR1RCloyFKSzCM
+      2/H447wEQDzW4OAgyWSS1157jXPnzmEYBplMhq6uLsbHx3njjTcYHh4mnU5TrVaJx+Mkk0mO
+      Hz9OLpdjdHSUUCi0VDBXKtHY2MjBgwcfWU99YQFzKo2ZnqI2lcacnMScyaDKZaxSEVWuoOp1
+      /v5f/QSHbuB2OHAZBm6Hk4jXS8wfoMHrp8HrJez1PbHD/yE5BRKPFQqFGB8fR9M0AoEAhUIB
+      TdOYmJhgz549lEolQqEQo6OjdHZ2MjIywsDAANlslkqlQmtrK4VCAZfLhdfrxTSXr5c2QiGM
+      UAj3vp5lP1dKgWnyc13Hefehnc0iI4B4rGvXrlGr1XA6nczNzdHc3EwqlWLPnj2Mj48TCoUw
+      TRNd1ymVSnR2djI8PEwsFiMQCDA9PU0kEsGyrPsjQCKR2OndeogEQNianAKJVatWq/efIfD7
+      /ViWxfz8PKFQCMMwsCyLSCSyw1v5KNM0eeedd+jr62Pv3r2Mjo7S1dUFyAgg1qBYLHL79m1K
+      pRLDw8P09/dTq9Wo1WqMjY3R29vLJ598wu7du5mfn+enP/0puv50VNtcuHCBRCLBL37xC44f
+      P87i4iLValVGALF6brebdDpNS0sLnZ2deL1egsEgSilM08Tn89Hf3097ezs3btzgaTq2NjQ0
+      4Ha7OX78OIlEgkgkgsfjkRFA2NvTMT4JsUMkAMLWJADC1iQAwtYkAMLWJADC1iQAwtYkAMLW
+      JADC1iQAwtYkAMLWJADC1iQAwtYkAMLWJADC1iQAwtYkAMLWJADC1iQAwtYkAMLWJADC1iQA
+      wtYkAMLWJADC1iQAwtYkAMLWJADC1iQAwtYkAMLWJADC1iQAwtYkAMLWJADC1iQAwtYkAMLW
+      JADC1iQAwtb+Pweb1QHEa4l7AAAAAElFTkSuQmCC
+    </thumbnail>
+    <thumbnail height='192' name='Sheet 6' width='192'>
+      iVBORw0KGgoAAAANSUhEUgAAAMAAAADACAYAAABS3GwHAAAACXBIWXMAAA7DAAAOwwHHb6hk
+      AAACFUlEQVR4nO3TMQEAIAzAMMC/5yFjRxMFfXpnZg5Eve0A2GQA0gxAmgFIMwBpBiDNAKQZ
+      gDQDkGYA0gxAmgFIMwBpBiDNAKQZgDQDkGYA0gxAmgFIMwBpBiDNAKQZgDQDkGYA0gxAmgFI
+      MwBpBiDNAKQZgDQDkGYA0gxAmgFIMwBpBiDNAKQZgDQDkGYA0gxAmgFIMwBpBiDNAKQZgDQD
+      kGYA0gxAmgFIMwBpBiDNAKQZgDQDkGYA0gxAmgFIMwBpBiDNAKQZgDQDkGYA0gxAmgFIMwBp
+      BiDNAKQZgDQDkGYA0gxAmgFIMwBpBiDNAKQZgDQDkGYA0gxAmgFIMwBpBiDNAKQZgDQDkGYA
+      0gxAmgFIMwBpBiDNAKQZgDQDkGYA0gxAmgFIMwBpBiDNAKQZgDQDkGYA0gxAmgFIMwBpBiDN
+      AKQZgDQDkGYA0gxAmgFIMwBpBiDNAKQZgDQDkGYA0gxAmgFIMwBpBiDNAKQZgDQDkGYA0gxA
+      mgFIMwBpBiDNAKQZgDQDkGYA0gxAmgFIMwBpBiDNAKQZgDQDkGYA0gxAmgFIMwBpBiDNAKQZ
+      gDQDkGYA0gxAmgFIMwBpBiDNAKQZgDQDkGYA0gxAmgFIMwBpBiDNAKQZgDQDkGYA0gxAmgFI
+      MwBpBiDNAKQZgDQDkGYA0gxAmgFIMwBpBiDNAKQZgDQDkGYA0gxAmgFIMwBpBiDNAKR9Y+0F
+      fBUOM1sAAAAASUVORK5CYII=
+    </thumbnail>
+    <thumbnail height='192' name='Stock trend over time' width='192'>
+      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
+    </thumbnail>
+    <thumbnail height='192' name='Total Revenue by each sector' width='192'>
+      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
+      AAAAAElFTkSuQmCC
+    </thumbnail>
+    <thumbnail height='192' name='Total Revenue vs Net Income' width='192'>
+      iVBORw0KGgoAAAANSUhEUgAAAMAAAADACAYAAABS3GwHAAAACXBIWXMAAA7DAAAOwwHHb6hk
+      AAASyUlEQVR4nO3d2W9bh5XH8e9deLmvIi3JlOTISxQ7C9IaaGYQoC3SPEzRt7zO3zDA/Cvz
+      OH9BX4sBinmaSYoJHDdtkMWNF0VeRO2kuFzud58H12ocyzElUhKjez5PiUwenivxx7vyXCUI
+      ggAhQkhRFEU96yaEOEsTC0Cn05lUKSFOjT6pQrIldXz13U0e7zQozWTJJqI82m6QjUIQzXIx
+      H2Ntq8HbN66h/P3xnW6XdCp1pj2fF8qk9gHa7TaZTGYSpULnkz99TCGdpWY2IND55a9/yV8/
+      /YR8+So5fcjjhkN3+z56ehY9EmW7ssqNN96k1mwTNVSWr9zg4mzhrBfjJ0f2AabETDrJxk6N
+      eDJF+UKOr765RzafZ293h1giRa8zxFcjFNIJXM9n+dIyjm3juA6+FmNe3vzHJmsAEVqyBhCh
+      JwE4Yb1e/+C/m/t7dAf2jzw6wHU9bPv5x3iOxb1v/0a1Yf7jZ7bN0HFeqCBH445mYkeBxOHa
+      bZNeu85+e8iw3SA/02PTg6jigGbQ7XaJJTMolomnRzFNi8Vyka7ZIp5I0jRNFq68QSqZJmn4
+      3PrscxbLs3iOR6PdZLZUomF2yKbTDByfqOazu71JIpWm1WyRSOZIZxLkCwU05dX9ho2sAU6Y
+      pmmgRSnmsyxcWkZXAyzbIpHOkUommZ2dJZOK0+31cHyFZCyC5zpYlsOw36e8MIfjBmi6jj3o
+      46NgWRaKonNpaRHHcSnPl+j0LSzLQlMVLNuh3zUZOkNUTWNzuypv/peQneBzynctHj3Z4EKx
+      CEaMTCJ21i1NHUVRlIMAdDqdsU5mDQYD4vH42E35vo+qjr9imkSdIAhQlPE/Oqdpmaapl7Ou
+      k81mlYN9gHQ6/dIHeo7F+tYeF3IJKrsNCtkk1X2TfDZOd+hz/fUrABNZA7iui66Pv2syiTqe
+      56Gq6tghmKZlmqZepqHOSM/QIlHi0QjDwYDBcEB2eRnbDZifLbDX6B35RYWYFiOtM1x7wN7u
+      Dj3bI2oY2IMu+ZkSve6AUql40j0KcWJGWgPoRpx3f/bzF/8hEZ10P0KcKjkMKkJNAiBCTQIg
+      Qk0CIEJNAiBCTQIgQk0CIEJNAiBCTQIgQk0CIEJNAiBCTQIgQk0CIEJNAiBCTaZCiFPT7XZx
+      HIdcLke9XicWi+H7PrFYjP39febn56nX63S7XTRNQ9d1dF0nkUiQSCQwTZN4PE6r1SKfz+M4
+      Dslk8qDW/v4+xWKRarXK/Pz8SN/kkwCIU3P79m1M0+Sjjz6i2WxSq9UO3ryxWAxFUYjH46yu
+      rvL222/z4MEDZmdnabfbvPPOO9y5cwfDMKhUKty8eZNut8tbb73FnTt3sCyLaDTKYDAgmUzi
+      ui5LS0uv7Ek2gcSpWVlZwfd9hsMhjx8/plQqUavVqFarBEGAZVmoqsqlS5cYDAa88847rK+v
+      s7y8jOd5WJbFwsLCwVqj2WwyGAwO6j8bYnCU4Q5TNxblrL8k/X3ypfjJ1mm1WiiKQqPRQNd1
+      YrEYmUwGVVXZ39/Hsizm5uYwDAPbtolGo1QqFYIgIBKJMBwOyeVy+L6Ppmm022183yeXyxGN
+      Rul2u8zMzFCr1Zibm3vl3+25sSjjkgCcbC+TqjNNvZx1HUVRFNkHEFPp1q1bXL58mc8++4xy
+      uUytVmNlZYWrV69O9HUkAGLqBEHA2toapmly7do1ut0u5XIZ0zRf/eQjkp1gMXU8z+O3v/0t
+      7777LvV6nXK5jOM4zMzMTPy1ZA0gpo6u65RKJQDm5+cBWFxcxPcDLMfF0LUf3S8LAg8CH0WN
+      vPq1RmnIcyzW1je5kIlTqTYp5bPs7O0zk09hJHJcnJXhWOLk/ed/fcGfvn7Cv330Hu+/vXjo
+      YwLfpf/oP/AHmySu/Dta4tKP1hx5NGImmcDzXDzHIVso4gYa7cYOqqMwVyrg+z6u6x59qX5g
+      mur4vj+Ru19O2zJNSy9HrXNvvcbAclnbqvPe9fnD6/hDvN4T8Ae4/S0Co/yjNUc6DOraAx6s
+      rlGYKWJ2eixcnEU34vRbNbqOwlJ5Tg6DnnAvk6ozTb0ctc5G1eTOoyq/evcSyZjx0jpu9zt8
+      a49I4Z/4sQOdch7gFSQAJ1fn2dvO87ynNxE5gsPO9r6qzmF/QzkPIM7MvXv3+PLLL/nd737H
+      gwcPiEajbGxsEI/HcRyHDz74gEajwddff00ul8PzPLrdLgC/+c1v+OMf/0gymaTVah2c/f3w
+      ww+5d+8erVYLTdOIRqOYpsni4iI3b948tA85DCrOxLML32zbptFosLq6iqqqBEFwcLKr0+nQ
+      aDQwTZONjQ2Wl5fZ29vD8zwWFhYYDAa8/vrrNJtNVlZWGA6HRCIRCoUChUIBXddZXFzE87yX
+      9yGbQC8nm0AnV8eyLL766isSiQRLS0tsb29jGMbB1Z6GYbC4uMj29jYLCwtUq1VSqRSGYWCa
+      JqqqUi6XefToESsrK9y9e5d4PE6xWKTb7aIoysGl0gsLCySTyRd6kH2AV5AAnO86cqNs8ZPw
+      6aefUq1W+f3vf8/t27dpNpvcuXOHXm/8uxNJAMRU8zyP1dVVtre3uXLlCpcvX+bPf/4z0Wh0
+      Iuch5CiQmGrdbpcPP/wQx3EOLpEoFAqUSiUMw3h1gVeQAIipls1myWazz/3sF7/4xcTqyyaQ
+      CDUJgAg1CYAINQmACDUJgAg1CYAINQmACDUJgAg1CYAINQmACDUJgAg1CYAINQmACDUJgAg1
+      CYAINQmACDUJgAi1kYfj3l97woVMlCd7TS5eKFHZ3KGQjZPMzbIwXzrpPoU4ESMPxy3kMhA4
+      aIpCJptjSTPwrQ71ep2LszM/6aGrP1ZDhuOe7zojBcC1B7RNk5lSiXxewYhoXLhQpNPwiWbi
+      qKqKqqo/+TkxPyRzgc5/nZGeoRtxVt54A4Di9+7SUSjNHfkFhZgmshMsQk0CIEJNAiBCTQIg
+      Qk0CIEJNAiBCTQIgQk0CIEJNAiBCTQIgQk0CIELt0ABUt9b4y+d3GDgvv72kEOfBoQEY9Lvc
+      /dtdvMncQFKIqXVoAFxb4dKVRTR1vMuAhZh2hwag3++TSCZRx7wOXohpd2gAcoUcnU5nIt+G
+      EmKaHRqAZr2J1WszcPzT7keIU3XoN8Jm5+do2SqJiHba/Qhxqg5dA3Tabax+D9uTNYA43156
+      IiyeTBPRZCdYnG+HBiBiGGNPQhDip+CFfYBBu876do2ACHIMSJx3LwQgnslzYaaIruu4vkRA
+      nG+HbAIFNKo77LX7xDQ5CiTOt0MCoJHJatz9y7d0bOf0OxLiFL2wCTTstmj3FVKFBFH96RrA
+      cyxWH1W4kImxXm0yWyywtV1l5eoild0Wb1+/duqNCzEJLwTAtfps10wSsQjPDgQpqoYSeAxs
+      m36vT+q1Syy+Fmdna4tO38b3/TMfcnoSdWQ47vmvowQ/+Avbwz7V/Qa6blC8UEJXFXzPodFs
+      kUimsCyHTCqBomqoqoLjOEQiEdrtNplMZuwFOethqd8nw3HPdx1FUZQX9gEss8H//s8n3Huw
+      huM/PROsahGKxRKJeJx8LoOm66h/v1Q6EomM3bwQZ+WFAKRnF/jVP/8M33OREwHivHvppRCB
+      7yOnAcR5d+hGU+nia8wtLqPKtUDinDtkDeDw33/4A5/8321sWQWIc+6QNUCEN99eod4P0OSC
+      OHHOHboPkEgmcWyHQPaCxTl3aABS6QyD5j59mQskzrnDp0K0G2x1hmQMOcYvzrdDA1BvtFmc
+      ydKxxz9FLcQ0e2EnuFPd4uKNn5PZrmDIYVBxzr2wBjDiBt/89XMebu6gqzI7V5xvL6wBoukS
+      H/z6lwDyvWBx7h16Jlje+CIsZBtHhJoEQISaBECEmgRAhJoEQISaBECEmgRAhJoEQISaBECE
+      mgRAhJoEQITaaKO0ggDHddE1Dct20FRwPB9dU0HRMCLjT/YS4iyM9M71XJu1RxVmkhHWq02W
+      FhbY2tzi4twMe40e77y5AjCx26pOU51p6mVSdaapl7OuM1IAVD1CIh7FCzw0RSEWNZgrL6Jj
+      oUc0giAgCAJ8f/yb6vm+P5GrUSdR51mNSdUZ1ySXaRp6mYY6IwXAdx3wPRKFGeb0BIlEnFQ6
+      QrtRZX5u/mCArDaBG2oEQTBVdSYxHHealmmaepmGOiMFQItEufTaMgDZ702Azhdnj/yCQkwT
+      OQokQk0CIEJNAiBCTQIgQk0CIEJNAiBCTQIgQk0CIEJNAiBCTQIgQk0CIEJNAiBCTQIgQk0C
+      IEJNAiBCTQIgQk0CIEJNAiBCTQIgQk0CIEJNAiBCTQIgQk0CIEJNAiBCbeThuC3TJJ2Ms1Nt
+      kjCg1bUp5lPYgU4xn3l1DXFs3X2T6t0K5TcX0GfyZ93OuTLicFyHRsvE6Zvs1Zpcv/4WWn8L
+      RdMwaw0K2RRBEOB53tgN+b4/NXV83ycIgonM4xynl7VP77L+l++wnlR4/V//5Ux7OW91Rpxr
+      7tPYr+Kn0/iex6BrEkvm2Hj8kGSxfDBAVlXH36IKgmCq6kxiOO64vaRLWXRNIbc0O/YyTdvv
+      96zrKMEIM6WDwMdxXDRNw/cDdF0FFDzPJQgUIhGddrtNJjP+ppDruuj6+PcbmEQdz/MmMhx3
+      3F6CIMB3PQKFsZdpmn6/Z11HURRlpGcoiophGAB8fwCvrkeO9ILiqYcPH1IqlbBtm9XVVa5e
+      vcrm5iaZTIZisUgymeTWrVvMz89jWRbpdJp2u82NGzf48ssvmZmZ4dGjR7z55ps8ePCA9957
+      j+3tbdrtNoqikEqlqFarLC8vUyqVznpxp5ocBTpljuOwurpKs9mkVqvx5MkTPv74Y4bDIYVC
+      AdM0iUQiXL58GYDV1VVM02R7exvbtvn2228Ptnc///xzut0urutSr9cZDoc4jsPm5ibJZJJK
+      pXLGSzv9JACnbDgcMhwOefLkCel0mnQ6zfXr12k0Gjx8+JC1tTW2trbodDqkUimGwyG9Xg9F
+      UahWq8zNzbG+vo7ruszMzOC6Lt999x2u69LpdGi1WkQiEdbX10kkEme9uFNvpH2AUcg+wNF6
+      abfbpNPpF2r7vk+v1yOdTj/38yAIaLVa5PMvHgY1TZNMJjNSn9P0+z3rOiPvA4jJe9mHhaqq
+      B29+x3HY2dkhnU7jeR6apjEcDolGo8+92bPZ7Kn0fB5JAKbYF198gaIoxGIxvvnmG3Z3d1la
+      WuL999+fyG2FhOwDTLUgCKjValSrVcrlMjdu3OD+/ftn3da5ImuAKXbz5k1qtRrz809vRDgY
+      DLh27dpEThyJpyQAU8wwDMrl8sH/RyIR4vH4GXZ0/shHiQg1CYAINQmACDUJgAg1CYAINQmA
+      CDUJgAg1CYAINQmACDUJgAg1CYAINQmACDUJgAg1CYAItZEuh/Zdh+3qPsVsko2dOtlUlHqr
+      x4WZDEYqRzoePek+hTgRI60BFFWDIKDbbtHutkkXZkklYqRiUQaWfdI9CnFiRgqA51rsbm9i
+      9iw0RWHQaZHMzdCo19jdq510j0KcmIOxKMPhcKxCvV6PZDI5dkPPph9MQx3f9ycyG3Salmma
+      ejnrOvF4/B9jUcb9numkhuNOopdJ1plEACbVy6TqTFMvZ13nIADPZn8el67rY9cAJjKOfFJ1
+      ns0Mm0SdaVqmaellGupM9Evxrm1hewG2NUCPxEglR/8CdxAEWJZN4DkMbJd8LnusBfJ9j263
+      j6YE2D7ks8ebVjfodQlUDWs4wIglSMZjx6oT+B6WZdMfDIgnU8SjR/+Q8Bybdm+Irvr46GQz
+      qWP1YlsDXC9gOBwST6SIx47xgRX4tFommq7jOA7JVIaocfS3URD4tDs9IhoMbZ98brTJdj/k
+      ew79oQO+g+ur5LLpVz/peyZ6HmBjY4NKpUJ1fZ2+7x/pua49YGN7G9+3qKzvcNx5jVa/x+7m
+      E5rtNjt7jWNWgU67ycNHT9har+D4x+0mYHfjMY+3dqmsVwiOWae6tUHd7NLZr7Hf6R2zFZ/V
+      +/fp9gdU1iv4Y0zEtAcddvbqY9Vp7m7xaPU+reGQSmXn2L1sVdZZe3CfRqPJ7n7zyM+faAAU
+      RUHVNLLZPOn00XaIVS0Cvks0kSKfy6Iec7XoWAP0VIFiPkMuc7RPg+cEoGo6+Vz+SGuy50r4
+      HrV6k25vQD6fJ3HM8yWxdB5zf4dYMkt2jGUKgoC9Wp18Pk/yuOduFBU/UHhteYl8Pk88erwR
+      +X4AugZGLEU+e7xPf4DShQt4nks6kyN3jLX9RIfjxgwdy1OIRzRUwzhSulx7SK3eJF8soQUB
+      EeN4v9hhv0uz3aVYfDoXP6If7whDu9VAicSJRTR0w+DYW6lBgO26KEFA5Jj7SI49pNOzyKWT
+      +IqKrh3vc2vQ6+CrBoamHLuXp/04RIwIjm0fu07gu9TqJqViAddxj/33dqwBPcsjk4rj+6Af
+      4e+tKIry/9BVkhNnxcw2AAAAAElFTkSuQmCC
+    </thumbnail>
+    <thumbnail height='192' name='Total Stock Traded' width='192'>
+      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
+      /9b3u/rjRYW8AAAAAElFTkSuQmCC
+    </thumbnail>
+  </thumbnails>
+</workbook>
